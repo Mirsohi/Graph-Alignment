@@ -106,7 +106,7 @@ def figure(S, path):
         o = S['comparators'].get(m)
         if o:
             b.scatter([np.log2(r['cost']) for r in o['instances']], [r['e'] for r in o['instances']], s=10, marker=mk,
-                      color=col, label={'wl_ext': 'Wang--Landau', 'pt_broad_w': 'witness PT'}[m], zorder=2)
+                      color=col, label={'wl_ext': 'Wang–Landau', 'pt_broad_w': 'witness PT'}[m], zorder=2)
     b.axhline(0.05, color='0.6', ls=':', lw=0.7)
     b.set_yscale('log')
     b.set_ylim(5e-4, 3)
