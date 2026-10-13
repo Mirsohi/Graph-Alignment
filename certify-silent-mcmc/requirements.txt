@@ -1,0 +1,6 @@
+# Versions used for all reported results (Python 3.11.15, Linux x86-64)
+numpy==2.4.4
+scipy==1.17.1
+numba==0.67.0
+scikit-learn==1.8.0
+matplotlib==3.10.9

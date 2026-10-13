@@ -1,0 +1,84 @@
+{
+ "case": "adk_crystal_control",
+ "n": 214,
+ "k0": 64,
+ "beta_c": 1.7458844737098804,
+ "retry_status": "unresolved",
+ "final_status": "unresolved",
+ "retry_failed_rules": [
+  [
+   "C_two_start"
+  ],
+  [
+   "C_two_start"
+  ]
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": false,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.471915354975244,
+   "dS_D": 0.4425862630208286,
+   "se_D": 0.5387456960195013,
+   "dS_C": 189.42195638020831,
+   "se_C": 21.655224230645608,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.5280855802329615,
+     "lo": 0,
+     "hi": 89
+    },
+    {
+     "k_peak": 170,
+     "mass": 0.47191441976703863,
+     "lo": 90,
+     "hi": 214
+    }
+   ],
+   "proposals": 255852544
+  },
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": false,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.6010094026857185,
+   "dS_D": 0.3226725260416714,
+   "se_D": 0.41899181503084054,
+   "dS_C": 250.93958536783853,
+   "se_C": 3.6409563774982785,
+   "basins": [
+    {
+     "k_peak": 0,
+     "mass": 0.39899098749123957,
+     "lo": 0,
+     "hi": 87
+    },
+    {
+     "k_peak": 166,
+     "mass": 0.60100901250876,
+     "lo": 88,
+     "hi": 214
+    }
+   ],
+   "proposals": 255852544
+  }
+ ],
+ "retry_proposals": 511705088,
+ "retry_sec": 96.76335859298706
+}

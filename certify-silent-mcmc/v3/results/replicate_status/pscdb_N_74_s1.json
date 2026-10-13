@@ -1,0 +1,70 @@
+{
+ "case": "pscdb_N_74",
+ "seed": 1,
+ "beta_c": 1.5182717561670238,
+ "witness_score": 115,
+ "witness_score_best": 115,
+ "status": "unresolved",
+ "failed_rules": [
+  [],
+  [
+   "edge"
+  ]
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "edge_D": 0.005615234375,
+   "edge_C": 0.006388346354166667,
+   "w_window": 0.48124694815776536,
+   "dS_D": 0.2142333984375,
+   "se_D": 0.4755398025865069,
+   "dS_C": 0.48529052734375,
+   "se_C": 0.6638104895151333,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.9999999999999998,
+     "lo": 0,
+     "hi": 50
+    }
+   ],
+   "proposals": 83886080
+  },
+  {
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "edge_D": 0.006693522135416667,
+   "edge_C": 0.01025390625,
+   "w_window": 0.47894410832100653,
+   "dS_D": 0.1117350260416643,
+   "se_D": 0.4666096323040115,
+   "dS_C": 0.052235921223953596,
+   "se_C": 0.7284039259544604,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 1.0000000000000002,
+     "lo": 0,
+     "hi": 50
+    }
+   ],
+   "proposals": 83886080
+  }
+ ],
+ "diag_proposals": 167772160,
+ "diag_sec": 40.75588011741638
+}

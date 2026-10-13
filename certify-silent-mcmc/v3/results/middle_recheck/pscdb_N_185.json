@@ -1,0 +1,125 @@
+{
+ "case": "pscdb_N_185",
+ "n": 160,
+ "k0": 48,
+ "beta_c": 1.3450836816733218,
+ "witness_score": 486,
+ "status": "multi-phase",
+ "failed_rules": [
+  [
+   "C_two_start",
+   "middle_basin"
+  ],
+  [
+   "middle_basin"
+  ]
+ ],
+ "middle_basin_fired": [
+  true,
+  true
+ ],
+ "middle_window": [
+  16.0,
+  56.0
+ ],
+ "survey_basins": [
+  {
+   "k_peak": 1,
+   "mass": 0.44909218376700333,
+   "lo": 0,
+   "hi": 15
+  },
+  {
+   "k_peak": 48,
+   "mass": 0.09279858163726398,
+   "lo": 16,
+   "hi": 71
+  },
+  {
+   "k_peak": 104,
+   "mass": 0.4581092345957324,
+   "lo": 72,
+   "hi": 160
+  }
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": false,
+    "window": true,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.4344504731064251,
+   "dS_D": 1.0402425130208428,
+   "se_D": 0.28779181922388863,
+   "dS_C": 37.780863444010436,
+   "se_C": 23.210315176198318,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.5083834361957542,
+     "lo": 0,
+     "hi": 15
+    },
+    {
+     "k_peak": 48,
+     "mass": 0.1283170456899276,
+     "lo": 16,
+     "hi": 76
+    },
+    {
+     "k_peak": 104,
+     "mass": 0.3632995181143181,
+     "lo": 77,
+     "hi": 160
+    }
+   ],
+   "proposals": 199229440
+  },
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.5116714456528857,
+   "dS_D": 0.2914021809895786,
+   "se_D": 0.34593366328815606,
+   "dS_C": 0.91436767578125,
+   "se_C": 7.482923971523234,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.42497483790449486,
+     "lo": 0,
+     "hi": 13
+    },
+    {
+     "k_peak": 50,
+     "mass": 0.1685069542742396,
+     "lo": 14,
+     "hi": 73
+    },
+    {
+     "k_peak": 105,
+     "mass": 0.40651820782126563,
+     "lo": 74,
+     "hi": 160
+    }
+   ],
+   "proposals": 199229440
+  }
+ ],
+ "diag_proposals": 398458880,
+ "diag_sec": 64.53069996833801
+}

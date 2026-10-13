@@ -1,0 +1,16 @@
+\begin{tabular}{l@{\hspace{5pt}}ccccc}
+\toprule
+ & \multicolumn{2}{c}{exact controls} & VS & \multicolumn{2}{c}{graph (window)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-4}\cmidrule(lr){5-6}
+diagnostic & VS & graph & detect & occ.-corr. & detect \\
+\midrule
+$\widehat R\ge1.01$ & 1/18 & 0/16 & 1/36 & 5/59 & 8/55 \\
+$\widehat R\ge1.05$ & 1/18 & 0/16 & 1/36 & 0/59 & 3/55 \\
+$R^\ast\ge1.05$ & 1/18 & 0/16 & 1/36 & 11/59 & 14/55 \\
+$\Delta/\Delta_{\rm iid}\ge1.5$ & -- & 0/16 & -- & 17/59 & 7/55 \\
+\midrule
+rigorous cert., $\lambda{=}0$ & 0/72 & 0/64 & 119/152 & 0/254 & 0/246 \\
+TI-based tilted & 0/72 & 0/64 & 119/152 & 0/254 & 78/246 \\
+TI-based occ.\ err.\ ${}\ge0.5$ & 0/72 & 0/64 & 152/152 & 0/254 & 198/246 \\
+\bottomrule
+\end{tabular}

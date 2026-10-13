@@ -1,0 +1,38 @@
+{
+ "rhat_alarm": {
+  "fa": 0,
+  "nfa": 16,
+  "det": 16,
+  "ndet": 16
+ },
+ "rstar_alarm": {
+  "fa": 0,
+  "nfa": 16,
+  "det": 16,
+  "ndet": 16
+ },
+ "d_alarm": {
+  "fa": 0,
+  "nfa": 16,
+  "det": 16,
+  "ndet": 16
+ },
+ "crude_cert": {
+  "fa": 0,
+  "nfa": 64,
+  "det": 39,
+  "ndet": 63
+ },
+ "tilted_cert": {
+  "fa": 0,
+  "nfa": 64,
+  "det": 43,
+  "ndet": 63
+ },
+ "twophase_tv_alarm": {
+  "fa": 0,
+  "nfa": 64,
+  "det": 43,
+  "ndet": 63
+ }
+}

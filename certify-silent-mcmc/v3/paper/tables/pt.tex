@@ -1,0 +1,19 @@
+\begin{tabular}{lccccc}
+\toprule
+ & N.74 & CL.64 & O.19 & syn. & N.141 \\
+\midrule
+\multicolumn{6}{l}{max $|\hat\omega_{\mathrm C}-\wC^{\rm ref}|$: median [min, max] over independent runs} \\
+2P, full pipeline & 0.01 [0.01,0.02] (3) & 0.05 [0.01,0.05] (3) & 0.09 [0.01,0.10] (5) & 0.01 [0.01,0.01] (3) & 0.12 [0.02,0.19] (5) \\
+PT, broad ladder & 0.05 (1) & 0.07 (1) & 0.99 (1) & 0.62 (1) & 0.95 (1) \\
+PT, broad, witness-seeded & 0.03 [0.01,0.04] (3) & 0.05 [0.04,0.26] (3) & 0.97 [0.88,0.99] (3) & 0.03 [0.03,0.12] (3) & 1.00 [1.00,1.00] (3) \\
+WL-$S$, range to $\min(|E_A|,|E_B|)$ & 0.01 [0.01,0.02] (3) & 0.02 [0.01,0.08] (3) & 0.03 [0.01,0.05] (3) & 0.95 [0.95,0.95] (3) & 1.00 [0.20,1.00] (3) \\
+direct windows & 0.03 [0.02,0.04] (3) & 0.06 [0.05,0.08] (3) & 0.15 [0.15,0.32] (3) & 0.04 [0.03,0.06] (3) & 0.14 [0.08,0.31] (3) \\
+\midrule
+\multicolumn{6}{l}{wall-clock seconds per run, one process; 2P with one diagnostic seed; other core busy} \\
+2P: pipeline + one-seed checks & 32 + 7 & 44 + 13 & 47 + 17 & 52 + 7 & 70 + 30 \\
+PT, broad & 98 & 115 & 132 & 89 & 187 \\
+PT, witness-seeded & 84 & 110 & 122 & 86 & 165 \\
+WL-$S$ ext. & 64 & 97 & 96 & 67 & 126 \\
+direct windows & 45 & 68 & 66 & 50 & 93 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,80 @@
+{
+ "case": "pscdb_O_19",
+ "seed": 4,
+ "beta_c": 1.4641321800432325,
+ "witness_score": 282,
+ "witness_score_best": 282,
+ "status": "pass",
+ "failed_rules": [
+  [],
+  []
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.5337454947751842,
+   "dS_D": 0.3171590169270786,
+   "se_D": 0.2946858710747461,
+   "dS_C": 0.57073974609375,
+   "se_C": 1.5325929807504717,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.4662470072893865,
+     "lo": 0,
+     "hi": 28
+    },
+    {
+     "k_peak": 85,
+     "mass": 0.5337529927106135,
+     "lo": 29,
+     "hi": 103
+    }
+   ],
+   "proposals": 138412032
+  },
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.603918012600615,
+   "dS_D": 0.020060221354164298,
+   "se_D": 0.2616006443894464,
+   "dS_C": 0.3021952311198106,
+   "se_C": 1.9021786528939393,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.39608198739938494,
+     "lo": 0,
+     "hi": 30
+    },
+    {
+     "k_peak": 85,
+     "mass": 0.6039180126006152,
+     "lo": 31,
+     "hi": 103
+    }
+   ],
+   "proposals": 138412032
+  }
+ ],
+ "diag_proposals": 276824064,
+ "diag_sec": 118.94956040382385
+}

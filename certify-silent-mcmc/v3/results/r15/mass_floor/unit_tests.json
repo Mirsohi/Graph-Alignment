@@ -1,0 +1,202 @@
+{
+ "t1": [
+  {
+   "beta": 0.5,
+   "blocks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "elbo": 7.0,
+   "logZ": 16.43600550411665,
+   "ok": true
+  },
+  {
+   "beta": 0.5,
+   "blocks": [
+    3,
+    3,
+    3
+   ],
+   "elbo": 9.263553683524036,
+   "logZ": 16.43600550411665,
+   "ok": true
+  },
+  {
+   "beta": 0.5,
+   "blocks": [
+    6,
+    3
+   ],
+   "elbo": 11.923221541272788,
+   "logZ": 16.43600550411665,
+   "ok": true
+  },
+  {
+   "beta": 0.5,
+   "blocks": [
+    7,
+    1,
+    1
+   ],
+   "elbo": 12.399069901993752,
+   "logZ": 16.43600550411665,
+   "ok": true
+  },
+  {
+   "beta": 1.0,
+   "blocks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "elbo": 14.0,
+   "logZ": 20.67132427953114,
+   "ok": true
+  },
+  {
+   "beta": 1.0,
+   "blocks": [
+    3,
+    3,
+    3
+   ],
+   "elbo": 15.22402928759538,
+   "logZ": 20.67132427953114,
+   "ok": true
+  },
+  {
+   "beta": 1.0,
+   "blocks": [
+    6,
+    3
+   ],
+   "elbo": 16.48339801434463,
+   "logZ": 20.67132427953114,
+   "ok": true
+  },
+  {
+   "beta": 1.0,
+   "blocks": [
+    7,
+    1,
+    1
+   ],
+   "elbo": 17.156666306968976,
+   "logZ": 20.67132427953114,
+   "ok": true
+  },
+  {
+   "beta": 2.0,
+   "blocks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "elbo": 28.0,
+   "logZ": 31.157358810389567,
+   "ok": true
+  },
+  {
+   "beta": 2.0,
+   "blocks": [
+    3,
+    3,
+    3
+   ],
+   "elbo": 28.841005751022657,
+   "logZ": 31.157358810389567,
+   "ok": true
+  },
+  {
+   "beta": 2.0,
+   "blocks": [
+    6,
+    3
+   ],
+   "elbo": 29.133007563601534,
+   "logZ": 31.157358810389567,
+   "ok": true
+  },
+  {
+   "beta": 2.0,
+   "blocks": [
+    7,
+    1,
+    1
+   ],
+   "elbo": 29.317947991818627,
+   "logZ": 31.157358810389567,
+   "ok": true
+  }
+ ],
+ "t2": [
+  {
+   "beta": 0.5,
+   "elbo": 10.840807940886872,
+   "logZ": 10.840807940886878,
+   "diff": -5.329070518200751e-15,
+   "ok": true
+  },
+  {
+   "beta": 1.0,
+   "elbo": 13.492000483317364,
+   "logZ": 13.49200048331737,
+   "diff": -5.329070518200751e-15,
+   "ok": true
+  },
+  {
+   "beta": 2.0,
+   "elbo": 19.734015246649598,
+   "logZ": 19.734015246649623,
+   "diff": -2.4868995751603507e-14,
+   "ok": true
+  }
+ ],
+ "t3": {
+  "formula": 55.920334529844325,
+  "mc": 55.92775,
+  "se": 0.026739511904202738,
+  "ok": true
+ },
+ "all_ok": true,
+ "prov": {
+  "script": "code/experiments/r15_test_variational.py",
+  "script_sha256": "d5a6cdd0a75936a75124fc071a9d54516bba2fd5c898a0caa6cacffacd1c8577",
+  "code_sha256": {
+   "code/gacert2/__init__.py": "2f356ac875fe70b0c71fd0349d27812fd51cb5668ee9157dded0ddb1ba05fb29",
+   "code/gacert2/baselines2.py": "c8745f93c690b36e04e6e6dd63e06a784fe0c6e2045814a2c09c7d9418407300",
+   "code/gacert2/bvs.py": "1190c1082384574a844c78f23b8490f43e3f653e12519e49bbd082c642a454d5",
+   "code/gacert2/diagnose.py": "c4947b2025d91625028f744f6e6062ac83ba5927aa47cc646c164f7fee1d194d",
+   "code/gacert2/instances.py": "9383bacb3f0ea4cbde2d6be6efa9927aa1d88a2e14bcce85acb7d0000a897454",
+   "code/gacert2/phase.py": "8d4395357558ef77ddfb21cde9a22cb4ea8ce56e9bc7c3ccaa69781b1a5f9a72",
+   "code/gacert2/umbrella.py": "0650488512842d7592b8340f1f8c563d925d2ff7a6bacbe3b86fcb983e1d18aa",
+   "code/gacert2/variational.py": "ae8a8fe0b29a49d0416174a3186258f9a95aa6c8d6ceaf6325e822bde12d5012",
+   "code/gacert2/windows.py": "0dcb093f0df0bda28b4d5570b9c481326f66d67c2a613db80746ebcb5f4889a0"
+  },
+  "hostname": "vm",
+  "started": "2026-10-01 17:44:52 PDT",
+  "finished": "2026-10-01 17:44:57 PDT",
+  "wall_seconds": 5.085597991943359,
+  "python": "3.11.15",
+  "numpy": "2.4.4"
+ }
+}
