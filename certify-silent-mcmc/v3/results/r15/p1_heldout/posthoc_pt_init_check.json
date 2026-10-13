@@ -1,0 +1,87 @@
+{
+ "note": "POST-HOC diagnostic (not pre-registered; does not change any M2 metric): is the comparators' large error a reference artefact or comparator non-equilibration? Instance F1_i2 (control family), replicate-1 witness.",
+ "unrestricted_MH_2p25": {
+  "note": "rmh unrestricted, 2^25 steps, burn 2^23, seed 7; k = overlap with witness, k0=18",
+  "rows": [
+   {
+    "beta": 1.0,
+    "start": "witness",
+    "mean_k_over_n": 0.979,
+    "frac_C": 1.0
+   },
+   {
+    "beta": 1.0,
+    "start": "random",
+    "mean_k_over_n": 0.019,
+    "frac_C": 0.0
+   },
+   {
+    "beta": 1.1,
+    "start": "witness",
+    "mean_k_over_n": 0.991,
+    "frac_C": 1.0
+   },
+   {
+    "beta": 1.1,
+    "start": "random",
+    "mean_k_over_n": 0.019,
+    "frac_C": 0.0
+   }
+  ]
+ },
+ "pt_init_dependence": {
+  "note": "pt_all with the pt_broad_w ladder, 2^27 proposals per run, numpy rng seed 3; wC = PT occupancy of k>=18 at G",
+  "G": [
+   1.0,
+   1.1,
+   1.2,
+   1.3,
+   1.4,
+   1.5,
+   1.6,
+   1.7,
+   1.8,
+   1.9
+  ],
+  "random_init": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0.87,
+   1.0
+  ],
+  "witness_init": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "reference_a": [
+  0.019,
+  0.026,
+  0.996,
+  0.997,
+  0.999,
+  0.999,
+  0.999,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "pipeline_beta_c_rep1": 1.134,
+ "conclusion": "Both phases are metastable at beta=1.0-1.1 (no melting or nucleation in 2^25 MH steps) and PT at 2^27 is initialisation-dependent over the whole grid, so PT phase weights are hysteresis-dominated (non-equilibrated across the first-order transition). The matched-compute comparator errors are therefore comparator non-convergence, consistent with the independent window reference and the two-phase estimate agreeing with each other.",
+ "run_at": "2026-10-02 06:02 PDT",
+ "proposals": 402653184
+}

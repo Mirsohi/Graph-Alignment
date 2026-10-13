@@ -1,0 +1,112 @@
+{
+ "case": "pscdb_O_16",
+ "n": 154,
+ "k0": 46,
+ "beta_c": 1.2155983450396088,
+ "witness_score": 450,
+ "status": "multi-phase",
+ "failed_rules": [
+  [
+   "edge",
+   "D_two_start",
+   "window",
+   "middle_basin"
+  ],
+  [
+   "edge",
+   "D_two_start",
+   "window",
+   "middle_basin"
+  ]
+ ],
+ "middle_basin_fired": [
+  true,
+  true
+ ],
+ "middle_window": [
+  15.4,
+  53.7
+ ],
+ "survey_basins": [
+  {
+   "k_peak": 1,
+   "mass": 0.02541239462814848,
+   "lo": 0,
+   "hi": 10
+  },
+  {
+   "k_peak": 34,
+   "mass": 0.9745876053718517,
+   "lo": 11,
+   "hi": 154
+  }
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": false,
+    "D_two_start": false,
+    "C_two_start": true,
+    "window": false,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.36334228515625,
+   "w_window": 0.014545869185441398,
+   "dS_D": 67.32358805338541,
+   "se_D": 11.35870085756436,
+   "dS_C": 0.2998555501302178,
+   "se_C": 0.531002072829382,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.06749267004098655,
+     "lo": 0,
+     "hi": 11
+    },
+    {
+     "k_peak": 36,
+     "mass": 0.9325073299590132,
+     "lo": 12,
+     "hi": 154
+    }
+   ],
+   "proposals": 192937984
+  },
+  {
+   "rules": {
+    "edge": false,
+    "D_two_start": false,
+    "C_two_start": true,
+    "window": false,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.3158772786458333,
+   "w_window": 0.020055036538790042,
+   "dS_D": 49.35201009114584,
+   "se_D": 11.447998157329542,
+   "dS_C": 0.4232381184895644,
+   "se_C": 0.6022404831500286,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.061951526853675824,
+     "lo": 0,
+     "hi": 11
+    },
+    {
+     "k_peak": 34,
+     "mass": 0.9380484731463248,
+     "lo": 12,
+     "hi": 154
+    }
+   ],
+   "proposals": 192937984
+  }
+ ],
+ "diag_proposals": 385875968,
+ "diag_sec": 56.87011456489563
+}

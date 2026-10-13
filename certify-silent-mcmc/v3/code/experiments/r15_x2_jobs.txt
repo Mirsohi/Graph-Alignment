@@ -1,0 +1,13 @@
+# R15 X2 (stretch): extra FP-TI seeds at 2^21 on the 6 released-pass pairs
+pscdb_CL_64 21 103
+pscdb_CL_64 21 104
+pscdb_O_19 21 103
+pscdb_O_19 21 104
+pscdb_O_17 21 103
+pscdb_O_17 21 104
+pscdb_N_141 21 103
+pscdb_N_141 21 104
+pscdb_B_44 21 103
+pscdb_B_44 21 104
+pscdb_N_139 21 103
+pscdb_N_139 21 104

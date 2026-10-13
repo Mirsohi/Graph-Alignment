@@ -1,0 +1,12 @@
+\begin{tabular}{lccccccc}
+\toprule
+design & certified & true/estimated & 2P error & FP $<$ floor & stuck cert. & oracle cert. & $\widehat R$ pass \\
+ & FP error & FP error & (exact) & & & & (stuck) \\
+\midrule
+suppr., $p{=}20$ & $[18.3,46.4]$ & $[18.6,46.5]$ & $\le$0.016 & 6/6 & 72/72 & 0/24 & 18/18 \\
+suppr., $p{=}200$ & $[77.0,112.2]$ & $[77.6,112.6]$$^\dagger$ & -- & 6/6 & 72/72 & 0/24 & 18/18 \\
+decoy, $p{=}20$ & $[-0.7,14.9]$ & $[-0.6,15.0]$ & $\le$0.015 & 5/6 & 4/7 & 0/24 & 0/1 \\
+decoy, $p{=}200$ & $[29.4,74.0]$ & $[30.1,74.6]$$^\dagger$ & -- & 6/6 & 39/54 & 0/24 & 2/10 \\
+weak, $p{=}20$ & $[-0.2,-0.1]$ & $[-0.0,0.0]$ & $\le$0.008 & 0/3 & 0/0 & 0/12 & 0/0 \\
+\bottomrule
+\end{tabular}

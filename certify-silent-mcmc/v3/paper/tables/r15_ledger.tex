@@ -1,0 +1,19 @@
+% R15 compute ledger (r15_paper_tables.py): sums over the per-job result files; CPU-h = sum of wall-clock seconds / 3600.
+\begin{tabular}{lrrr}
+\toprule
+item & jobs & proposals & CPU-h \\
+\midrule
+Standard TI, 22 proteins + 16 synthetic pairs (TI only) & 206 & $2^{35.41}$ & 12.25 \\
+\quad synthetic witness re-search (in these runs) & & $2^{29.75}$ & (incl.) \\
+Held-out references (40 instances) & 40 & $2^{34.49}$ & 1.91 \\
+Held-out pipeline (80 runs, all components) & 80 & $2^{35.46}$ & 4.38 \\
+Held-out Wang--Landau (40, charged) & 40 & $2^{34.62}$ & 2.84 \\
+Held-out witness PT (40, charged) & 40 & $2^{34.62}$ & 3.13 \\
+Coset-floor blocks (22 + 16 pairs) & 38 & $2^{30.54}$ & 0.50 \\
+PT-based TI (22 pairs) & 22 & $2^{33.46}$ & 4.19 \\
+Comparators, second seed (80; Table~\ref{tab:r15x1}) & 80 & $2^{35.62}$ & 5.84 \\
+Standard TI, seeds 103--104 (12; Table~\ref{tab:r15x2}) & 12 & $2^{33.15}$ & 2.16 \\
+\midrule
+total (excl. smoke tests, post-hoc checks) & & $2^{37.84}$ & 37.2 \\
+\bottomrule
+\end{tabular}

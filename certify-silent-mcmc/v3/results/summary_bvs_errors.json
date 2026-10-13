@@ -1,0 +1,72 @@
+{
+ "exact20_strong": {
+  "certified": [
+   18.254262622117476,
+   46.38772650998292
+  ],
+  "estimated": [
+   18.630297847645732,
+   46.5308349373198
+  ],
+  "twophase_halfspread_max": null,
+  "exact": true,
+  "below": 6,
+  "n": 6
+ },
+ "p200": {
+  "certified": [
+   76.9914599997235,
+   112.16599085353758
+  ],
+  "estimated": [
+   77.64262057706541,
+   112.6463835090685
+  ],
+  "twophase_halfspread_max": 0.05114688945560886,
+  "exact": false,
+  "below": 6,
+  "n": 6
+ },
+ "decoy20": {
+  "certified": [
+   -0.734238622464261,
+   14.931878212378223
+  ],
+  "estimated": [
+   -0.6416612403480144,
+   14.991075962808054
+  ],
+  "twophase_halfspread_max": null,
+  "exact": true,
+  "below": 5,
+  "n": 6
+ },
+ "decoy200": {
+  "certified": [
+   29.43936152109552,
+   74.03534250004282
+  ],
+  "estimated": [
+   30.105366485645675,
+   74.558755745989
+  ],
+  "twophase_halfspread_max": 0.05427803860044378,
+  "exact": false,
+  "below": 6,
+  "n": 6
+ },
+ "exact20_weak": {
+  "certified": [
+   -0.20955611503844107,
+   -0.1290206573744912
+  ],
+  "estimated": [
+   -0.007537070190416717,
+   0.007210503894556464
+  ],
+  "twophase_halfspread_max": null,
+  "exact": true,
+  "below": 0,
+  "n": 3
+ }
+}

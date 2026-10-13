@@ -1,0 +1,120 @@
+{
+ "pairs": {
+  "pscdb_O_16": {
+   "survey": "multi-phase",
+   "first": "multi-phase",
+   "final": "multi-phase"
+  },
+  "pscdb_N_185": {
+   "survey": "multi-phase",
+   "first": "multi-phase",
+   "final": "multi-phase"
+  },
+  "pscdb_N_75": {
+   "survey": "window-inconclusive",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_B_44": {
+   "survey": "pass",
+   "first": "unresolved",
+   "final": "pass (retry)"
+  },
+  "pscdb_O_19": {
+   "survey": "pass",
+   "first": "pass",
+   "final": "pass"
+  },
+  "pscdb_CL_64": {
+   "survey": "pass",
+   "first": "pass",
+   "final": "pass"
+  },
+  "pscdb_N_74": {
+   "survey": "pass",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_N_141": {
+   "survey": "pass",
+   "first": "pass",
+   "final": "pass"
+  },
+  "pscdb_N_261": {
+   "survey": "window-inconclusive",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_ID_55": {
+   "survey": "C-metastable",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_N_271": {
+   "survey": "window-inconclusive",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_N_217": {
+   "survey": "pass",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_B_38": {
+   "survey": "C-metastable",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_N_139": {
+   "survey": "pass (2nd window pass)",
+   "first": "pass",
+   "final": "pass"
+  },
+  "pscdb_O_17": {
+   "survey": "pass",
+   "first": "pass",
+   "final": "pass"
+  },
+  "pscdb_IL_55": {
+   "survey": "multi-phase",
+   "first": "multi-phase",
+   "final": "multi-phase"
+  },
+  "pscdb_N_288": {
+   "survey": "window-inconclusive",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_CD_21": {
+   "survey": "window-inconclusive",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "adk_crystal_control": {
+   "survey": "C-metastable",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_N_82": {
+   "survey": "window-inconclusive",
+   "first": "unresolved",
+   "final": "unresolved"
+  },
+  "pscdb_IL_74": {
+   "survey": "multi-phase",
+   "first": "multi-phase",
+   "final": "multi-phase"
+  },
+  "adk_open_closed": {
+   "survey": "multi-phase",
+   "first": "multi-phase",
+   "final": "multi-phase"
+  }
+ },
+ "counts": {
+  "multi-phase": 5,
+  "unresolved": 11,
+  "pass (retry)": 1,
+  "pass": 5
+ }
+}

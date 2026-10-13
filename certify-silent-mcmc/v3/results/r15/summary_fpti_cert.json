@@ -1,0 +1,7226 @@
+{
+ "note": "RIGOROUS = deterministic witness floor; TI_BASED = two-phase context. Every count states its denominator.",
+ "returned_pairs": [
+  "pscdb_B_44",
+  "pscdb_CL_64",
+  "pscdb_N_139",
+  "pscdb_N_141",
+  "pscdb_O_17",
+  "pscdb_O_19"
+ ],
+ "protein": {
+  "T21": {
+   "logT_per_point": 21,
+   "seeds": [
+    101,
+    102
+   ],
+   "n_pairs": 22,
+   "n_pairs_all_seeds": 22,
+   "log2_total_proposals_per_run": 29.566054038171092,
+   "RIGOROUS": {
+    "certified_all_seeds_at3": 12,
+    "denominator": 22,
+    "certified_any_seed_at3": 16,
+    "runs_certified_at3": 28,
+    "runs": 44,
+    "certified_all_seeds_at3_ball": 13,
+    "median_E3_runs": 19.25942870514416,
+    "max_E3_runs": 115.41514362961243,
+    "min_E3_runs": -24.182439654907512,
+    "median_minseed_E3": 5.12224067383454,
+    "max_minseed_E3": 91.50371078799344,
+    "runs_certified_at25": 28,
+    "runs_certified_at20": 25,
+    "not_returned_16": {
+     "certified_all_seeds": 10,
+     "denominator": 16
+    },
+    "returned_6": {
+     "certified_all_seeds": 2,
+     "denominator": 6
+    },
+    "not_certified_pairs": [
+     "pscdb_B_44",
+     "pscdb_CD_21",
+     "pscdb_CL_64",
+     "pscdb_IL_55",
+     "pscdb_IL_74",
+     "pscdb_N_141",
+     "pscdb_N_185",
+     "pscdb_N_74",
+     "pscdb_O_16",
+     "pscdb_O_17"
+    ]
+   },
+   "median_nucleation_offset_TI_BASED_betac": 0.11677091230802605,
+   "TI_BASED": {
+    "note": "two-phase estimated error Lambda_2P(3)-Lambda_FP(3); context only",
+    "median_est_err3": 28.300786672904678
+   },
+   "compute": {
+    "total_proposals": 34972106752,
+    "total_seconds": 35789.01420903206
+   },
+   "pairs": {
+    "adk_crystal_control": {
+     "n": 214,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.7458844737098804,
+     "released_status": "unresolved",
+     "E3": [
+      85.5283569209953,
+      43.87814425798024
+     ],
+     "E3_ball": [
+      87.36346796346334,
+      45.71325530044828
+     ],
+     "E25": [
+      84.11064386379485,
+      42.444080840863535
+     ],
+     "E20": [
+      79.44044336807497,
+      37.72373802355696
+     ],
+     "first_cert": [
+      1.8,
+      1.8
+     ],
+     "first_cert_ball": [
+      1.8,
+      1.8
+     ],
+     "nucleation": [
+      1.96,
+      1.86
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      563,
+      563
+     ],
+     "est_err3_TI_BASED": [
+      89.36656685705691,
+      47.716354194041855
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      899.3459479808807,
+      903.5932414531708
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.21411552629011954,
+      0.11411552629011967
+     ]
+    },
+    "adk_open_closed": {
+     "n": 214,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.9607615286840319,
+     "released_status": "multi-phase",
+     "E3": [
+      3.6736175156806894,
+      21.497205282963932
+     ],
+     "E3_ball": [
+      5.893221432387236,
+      23.71680919967048
+     ],
+     "E25": [
+      0.6097053878681891,
+      18.407589628018513
+     ],
+     "E20": [
+      -19.600016345860922,
+      -11.372977879725227
+     ],
+     "first_cert": [
+      2.46,
+      2.04
+     ],
+     "first_cert_ball": [
+      2.28,
+      2.04
+     ],
+     "nucleation": [
+      2.04,
+      2.06
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      505,
+      505
+     ],
+     "est_err3_TI_BASED": [
+      10.817433632213579,
+      28.64102139949682
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      907.9658381938934,
+      903.5682716369629
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.07923847131596817,
+      0.09923847131596819
+     ]
+    },
+    "pscdb_B_38": {
+     "n": 210,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6081199940001452,
+     "released_status": "unresolved",
+     "E3": [
+      79.46135976510277,
+      56.12918356614364
+     ],
+     "E3_ball": [
+      81.24641550993738,
+      57.914239310978246
+     ],
+     "E25": [
+      78.49482754744167,
+      55.11844677485078
+     ],
+     "E20": [
+      75.57375079350732,
+      52.17360675689633
+     ],
+     "first_cert": [
+      1.66,
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66,
+      1.66
+     ],
+     "nucleation": [
+      1.8,
+      1.74
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      597,
+      597
+     ],
+     "est_err3_TI_BASED": [
+      83.10819140704348,
+      59.776015208084345
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      876.7605516910553,
+      875.3513462543488
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.19188000599985489,
+      0.13188000599985483
+     ]
+    },
+    "pscdb_B_44": {
+     "n": 185,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.4410853069714404,
+     "released_status": "pass (retry)",
+     "E3": [
+      -1.2552794966920828,
+      14.80530882817311
+     ],
+     "E3_ball": [
+      1.615944921483333,
+      17.676533246348527
+     ],
+     "E25": [
+      -4.332202302795849,
+      11.730683968680978
+     ],
+     "E20": [
+      -10.608783475739074,
+      5.442675482250934
+     ],
+     "first_cert": [
+      null,
+      1.78
+     ],
+     "first_cert_ball": [
+      2.7,
+      1.7
+     ],
+     "nucleation": [
+      1.48,
+      1.52
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      553,
+      553
+     ],
+     "est_err3_TI_BASED": [
+      9.490375571087725,
+      25.55096389595292
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      797.473090171814,
+      801.616012096405
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.038914693028559544,
+      0.07891469302855958
+     ]
+    },
+    "pscdb_CD_21": {
+     "n": 233,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.7205737016740676,
+     "released_status": "unresolved",
+     "E3": [
+      26.313267000816722,
+      -10.062255243954496
+     ],
+     "E3_ball": [
+      29.125448046973588,
+      -7.25007419779763
+     ],
+     "E25": [
+      19.142862723968847,
+      -17.10223087598615
+     ],
+     "E20": [
+      -0.7153403533473011,
+      -36.58386314838867
+     ],
+     "first_cert": [
+      2.02,
+      null
+     ],
+     "first_cert_ball": [
+      1.98,
+      null
+     ],
+     "nucleation": [
+      1.84,
+      1.74
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      600,
+      600
+     ],
+     "est_err3_TI_BASED": [
+      39.263384494179604,
+      2.8878622494083857
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      983.5488650798798,
+      981.4786252975464
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.11942629832593243,
+      0.019426298325932345
+     ]
+    },
+    "pscdb_CL_64": {
+     "n": 71,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.4773226644302262,
+     "released_status": "pass",
+     "E3": [
+      -5.655469275261339,
+      -4.499409218575238
+     ],
+     "E3_ball": [
+      -3.4449079843922163,
+      -2.288847927706115
+     ],
+     "E25": [
+      -6.530076836690853,
+      -5.386193543221168
+     ],
+     "E20": [
+      -8.566454907204275,
+      -7.421337161804786
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      null,
+      null
+     ],
+     "nucleation": [
+      1.48,
+      1.48
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      171,
+      171
+     ],
+     "est_err3_TI_BASED": [
+      -0.7219425232603953,
+      0.4341175334257059
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      678.4146585464478,
+      676.919171333313
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.0026773355697737866,
+      0.0026773355697737866
+     ]
+    },
+    "pscdb_ID_55": {
+     "n": 183,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.5703023968853314,
+     "released_status": "unresolved",
+     "E3": [
+      47.9390031494313,
+      45.14522352512813
+     ],
+     "E3_ball": [
+      50.81590030925918,
+      48.02212068495601
+     ],
+     "E25": [
+      45.1873382629567,
+      42.31446602956589
+     ],
+     "E20": [
+      38.50460607663922,
+      35.72028902665909
+     ],
+     "first_cert": [
+      1.7,
+      1.7
+     ],
+     "first_cert_ball": [
+      1.68,
+      1.68
+     ],
+     "nucleation": [
+      1.76,
+      1.76
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      500,
+      500
+     ],
+     "est_err3_TI_BASED": [
+      59.40818497415091,
+      56.61440534984774
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      785.7595574855804,
+      784.9925012588501
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.18969760311466866,
+      0.18969760311466866
+     ]
+    },
+    "pscdb_IL_55": {
+     "n": 238,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6506434409398247,
+     "released_status": "multi-phase",
+     "E3": [
+      -1.2637743427353598,
+      -12.258691239554992
+     ],
+     "E3_ball": [
+      2.7318615169526765,
+      -8.263055379866955
+     ],
+     "E25": [
+      -7.330128495096687,
+      -18.258644054928936
+     ],
+     "E20": [
+      -23.714646434982114,
+      -34.762874764004664
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      2.74,
+      null
+     ],
+     "nucleation": [
+      1.72,
+      1.74
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      632,
+      632
+     ],
+     "est_err3_TI_BASED": [
+      22.394976988905455,
+      11.400060092085823
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      1008.7573368549347,
+      1001.7558357715607
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.06935655906017524,
+      0.08935655906017526
+     ]
+    },
+    "pscdb_IL_74": {
+     "n": 213,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.7754624885229682,
+     "released_status": "multi-phase",
+     "E3": [
+      -15.971277835162255,
+      -20.844915889692174
+     ],
+     "E3_ball": [
+      -12.226475787937716,
+      -17.100113842467636
+     ],
+     "E25": [
+      -20.176291270844104,
+      -25.086537841749077
+     ],
+     "E20": [
+      -34.24795218685449,
+      -39.22708511093447
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      null,
+      null
+     ],
+     "nucleation": [
+      1.86,
+      1.82
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      523,
+      523
+     ],
+     "est_err3_TI_BASED": [
+      6.427756781179369,
+      1.554118726649449
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      891.9768524169922,
+      898.5236101150513
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.08453751147703192,
+      0.04453751147703189
+     ]
+    },
+    "pscdb_N_139": {
+     "n": 224,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6177062448651904,
+     "released_status": "pass",
+     "E3": [
+      99.4815340707687,
+      72.86056591331817
+     ],
+     "E3_ball": [
+      101.20880324117093,
+      74.58783508372039
+     ],
+     "E25": [
+      97.82620637237892,
+      71.16741101880734
+     ],
+     "E20": [
+      92.90783561686544,
+      66.23841852803889
+     ],
+     "first_cert": [
+      1.68,
+      1.68
+     ],
+     "first_cert_ball": [
+      1.68,
+      1.68
+     ],
+     "nucleation": [
+      1.84,
+      1.78
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      635,
+      635
+     ],
+     "est_err3_TI_BASED": [
+      103.02198125710345,
+      76.40101309965291
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      943.2528212070465,
+      940.8538761138916
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.22229375513480965,
+      0.1622937551348096
+     ]
+    },
+    "pscdb_N_141": {
+     "n": 142,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.521030192024284,
+     "released_status": "pass",
+     "E3": [
+      -2.46087638753761,
+      17.021652127324387
+     ],
+     "E3_ball": [
+      -0.4259109203119351,
+      19.05661759455006
+     ],
+     "E25": [
+      -3.26980426210298,
+      16.21860870939372
+     ],
+     "E20": [
+      -6.051043852747739,
+      13.430607598045185
+     ],
+     "first_cert": [
+      null,
+      1.6
+     ],
+     "first_cert_ball": [
+      null,
+      1.58
+     ],
+     "nucleation": [
+      1.54,
+      1.6
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      394,
+      394
+     ],
+     "est_err3_TI_BASED": [
+      2.316092306272594,
+      21.79862082113459
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      630.4397978782654,
+      630.7303788661957
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.018969807975716124,
+      0.07896980797571618
+     ]
+    },
+    "pscdb_N_185": {
+     "n": 160,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.3450836816733218,
+     "released_status": "multi-phase",
+     "E3": [
+      -4.642078326997762,
+      12.502350234529786
+     ],
+     "E3_ball": [
+      -1.375946738773564,
+      15.768481822753984
+     ],
+     "E25": [
+      -7.816396217801412,
+      9.290162456375128
+     ],
+     "E20": [
+      -13.934811699050897,
+      3.1506581556219544
+     ],
+     "first_cert": [
+      null,
+      1.86
+     ],
+     "first_cert_ball": [
+      null,
+      1.72
+     ],
+     "nucleation": [
+      1.38,
+      1.44
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      486,
+      486
+     ],
+     "est_err3_TI_BASED": [
+      10.816123384784987,
+      27.960551946312535
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      690.7630760669708,
+      690.3923671245575
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.034916318326678075,
+      0.09491631832667813
+     ]
+    },
+    "pscdb_N_217": {
+     "n": 202,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.5840232654069897,
+     "released_status": "unresolved",
+     "E3": [
+      52.52454953962297,
+      57.551754116751
+     ],
+     "E3_ball": [
+      55.02685913896903,
+      60.05406371609706
+     ],
+     "E25": [
+      50.27483836942656,
+      55.34677501652368
+     ],
+     "E20": [
+      44.80121630006761,
+      49.969846763350006
+     ],
+     "first_cert": [
+      1.66,
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66,
+      1.66
+     ],
+     "nucleation": [
+      1.74,
+      1.74
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      569,
+      569
+     ],
+     "est_err3_TI_BASED": [
+      60.13849165732904,
+      65.16569623445707
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      858.9345581531525,
+      858.1777963638306
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.1559767345930103,
+      0.1559767345930103
+     ]
+    },
+    "pscdb_N_261": {
+     "n": 181,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.5257417991318243,
+     "released_status": "unresolved",
+     "E3": [
+      79.88994511718283,
+      71.36732198193386
+     ],
+     "E3_ball": [
+      81.74275724792051,
+      73.22013411267153
+     ],
+     "E25": [
+      78.65090955530331,
+      70.09903799012
+     ],
+     "E20": [
+      75.58446081275463,
+      66.98531824543784
+     ],
+     "first_cert": [
+      1.58,
+      1.58
+     ],
+     "first_cert_ball": [
+      1.58,
+      1.58
+     ],
+     "nucleation": [
+      1.74,
+      1.72
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      523,
+      523
+     ],
+     "est_err3_TI_BASED": [
+      83.81900150553611,
+      75.29637837028713
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      779.0052654743195,
+      784.295253276825
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.2142582008681757,
+      0.1942582008681757
+     ]
+    },
+    "pscdb_N_271": {
+     "n": 235,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.573260556188608,
+     "released_status": "unresolved",
+     "E3": [
+      60.78165128521505,
+      42.816696797731765
+     ],
+     "E3_ball": [
+      62.437888143226246,
+      44.47293365574296
+     ],
+     "E25": [
+      59.45893504910032,
+      41.533426697774075
+     ],
+     "E20": [
+      55.47161154719538,
+      37.52051851245119
+     ],
+     "first_cert": [
+      1.66,
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66,
+      1.66
+     ],
+     "nucleation": [
+      1.74,
+      1.7
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      681,
+      681
+     ],
+     "est_err3_TI_BASED": [
+      63.95538452767914,
+      45.99043004019586
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      980.3268136978149,
+      979.4671397209167
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.16673944381139205,
+      0.12673944381139202
+     ]
+    },
+    "pscdb_N_288": {
+     "n": 239,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6573104986520706,
+     "released_status": "unresolved",
+     "E3": [
+      66.76599716761439,
+      80.20495879748273
+     ],
+     "E3_ball": [
+      68.40850584716009,
+      81.84746747702843
+     ],
+     "E25": [
+      65.36096578855086,
+      78.93791740038773
+     ],
+     "E20": [
+      61.01360664465801,
+      74.72193634608175
+     ],
+     "first_cert": [
+      1.72,
+      1.72
+     ],
+     "first_cert_ball": [
+      1.7,
+      1.7
+     ],
+     "nucleation": [
+      1.8,
+      1.84
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      671,
+      671
+     ],
+     "est_err3_TI_BASED": [
+      70.11621858178887,
+      83.55518021165722
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      1013.6897702217102,
+      1010.8574004173279
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.14268950134792946,
+      0.1826895013479295
+     ]
+    },
+    "pscdb_N_74": {
+     "n": 50,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.519833738318695,
+     "released_status": "unresolved",
+     "E3": [
+      -0.40301796838974724,
+      -0.5704366644754373
+     ],
+     "E3_ball": [
+      0.07312425612764173,
+      -0.09429443995804832
+     ],
+     "E25": [
+      -0.9095653383467379,
+      -1.0816345668370104
+     ],
+     "E20": [
+      -2.171291439586298,
+      -2.316999555481914
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      2.8,
+      null
+     ],
+     "nucleation": [
+      1.52,
+      1.54
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      115,
+      115
+     ],
+     "est_err3_TI_BASED": [
+      0.20949653463915752,
+      0.04207783855346747
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      312.3400673866272,
+      311.86216139793396
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.00016626168130495778,
+      0.020166261681304976
+     ]
+    },
+    "pscdb_N_75": {
+     "n": 207,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.3931190282042185,
+     "released_status": "unresolved",
+     "E3": [
+      115.41514362961243,
+      91.50371078799344
+     ],
+     "E3_ball": [
+      117.93086226879245,
+      94.01942942717346
+     ],
+     "E25": [
+      113.10399771839593,
+      89.14143208176097
+     ],
+     "E20": [
+      107.69763578405195,
+      83.8119580315572
+     ],
+     "first_cert": [
+      1.48,
+      1.48
+     ],
+     "first_cert_ball": [
+      1.48,
+      1.48
+     ],
+     "nucleation": [
+      1.64,
+      1.6
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      660,
+      660
+     ],
+     "est_err3_TI_BASED": [
+      123.91824859623182,
+      100.00681575461283
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      883.5860140323639,
+      877.2394692897797
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.2468809717957814,
+      0.20688097179578158
+     ]
+    },
+    "pscdb_N_82": {
+     "n": 185,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.759349031216861,
+     "released_status": "unresolved",
+     "E3": [
+      56.57949192028991,
+      39.90421052914644
+     ],
+     "E3_ball": [
+      59.577419923595926,
+      42.902138532452454
+     ],
+     "E25": [
+      53.506888176419125,
+      36.75598302664139
+     ],
+     "E20": [
+      45.45682816328372,
+      28.620737190065483
+     ],
+     "first_cert": [
+      1.86,
+      1.86
+     ],
+     "first_cert_ball": [
+      1.84,
+      1.84
+     ],
+     "nucleation": [
+      1.96,
+      1.92
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      461,
+      461
+     ],
+     "est_err3_TI_BASED": [
+      67.42768644606497,
+      50.752405054921496
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      806.3504984378815,
+      810.8562641143799
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.20065096878313904,
+      0.160650968783139
+     ]
+    },
+    "pscdb_O_16": {
+     "n": 154,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.2155983450396088,
+     "released_status": "multi-phase",
+     "E3": [
+      -21.026279023727966,
+      -24.182439654907512
+     ],
+     "E3_ball": [
+      -17.001416773794745,
+      -20.15757740497429
+     ],
+     "E25": [
+      -23.47293941839621,
+      -26.64577284201073
+     ],
+     "E20": [
+      -28.60688616617597,
+      -31.818363555511723
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      null,
+      null
+     ],
+     "nucleation": [
+      1.36,
+      1.36
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      450,
+      450
+     ],
+     "est_err3_TI_BASED": [
+      3.573917234706414,
+      0.4177566035268683
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      669.4582898616791,
+      672.0155439376831
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.14440165496039126,
+      0.14440165496039126
+     ]
+    },
+    "pscdb_O_17": {
+     "n": 124,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6484101432830518,
+     "released_status": "pass",
+     "E3": [
+      -4.983914807847441,
+      -5.96547499677672
+     ],
+     "E3_ball": [
+      -2.1350519882431627,
+      -3.116612177172442
+     ],
+     "E25": [
+      -7.6843899808441165,
+      -8.704194382241667
+     ],
+     "E20": [
+      -14.402929603468692,
+      -15.350653972835744
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      null,
+      null
+     ],
+     "nucleation": [
+      1.7,
+      1.68
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      302,
+      302
+     ],
+     "est_err3_TI_BASED": [
+      6.23448610470308,
+      5.252925915773801
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      602.947990655899,
+      604.7974052429199
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.05158985671694816,
+      0.03158985671694814
+     ]
+    },
+    "pscdb_O_19": {
+     "n": 103,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.4634842816765703,
+     "released_status": "pass",
+     "E3": [
+      6.57086383198839,
+      12.208235788495813
+     ],
+     "E3_ball": [
+      8.614706649851541,
+      14.252078606358964
+     ],
+     "E25": [
+      6.052494584869919,
+      11.693183921328796
+     ],
+     "E20": [
+      4.873855699054047,
+      10.509816017301546
+     ],
+     "first_cert": [
+      1.54,
+      1.52
+     ],
+     "first_cert_ball": [
+      1.52,
+      1.52
+     ],
+     "nucleation": [
+      1.52,
+      1.56
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      282,
+      282
+     ],
+     "est_err3_TI_BASED": [
+      11.610617384859893,
+      17.247989341367315
+     ],
+     "proposals": [
+      794820608,
+      794820608
+     ],
+     "seconds": [
+      894.6892552375793,
+      893.8836212158203
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.05651571832342972,
+      0.09651571832342976
+     ]
+    }
+   }
+  },
+  "T19": {
+   "logT_per_point": 19,
+   "seeds": [
+    101
+   ],
+   "n_pairs": 22,
+   "n_pairs_all_seeds": 22,
+   "log2_total_proposals_per_run": 27.566054038171092,
+   "RIGOROUS": {
+    "certified_all_seeds_at3": 17,
+    "denominator": 22,
+    "certified_any_seed_at3": 17,
+    "runs_certified_at3": 17,
+    "runs": 22,
+    "certified_all_seeds_at3_ball": 19,
+    "median_E3_runs": 42.00224982444854,
+    "max_E3_runs": 151.9317390599872,
+    "min_E3_runs": -20.385932411146314,
+    "median_minseed_E3": 42.00224982444854,
+    "max_minseed_E3": 151.9317390599872,
+    "runs_certified_at25": 17,
+    "runs_certified_at20": 16,
+    "not_returned_16": {
+     "certified_all_seeds": 12,
+     "denominator": 16
+    },
+    "returned_6": {
+     "certified_all_seeds": 5,
+     "denominator": 6
+    },
+    "not_certified_pairs": [
+     "pscdb_CL_64",
+     "pscdb_IL_55",
+     "pscdb_IL_74",
+     "pscdb_N_74",
+     "pscdb_O_16"
+    ]
+   },
+   "median_nucleation_offset_TI_BASED_betac": 0.14799575583866975,
+   "TI_BASED": {
+    "note": "two-phase estimated error Lambda_2P(3)-Lambda_FP(3); context only",
+    "median_est_err3": 47.39757370368534
+   },
+   "compute": {
+    "total_proposals": 4371513344,
+    "total_seconds": 4312.582681417465
+   },
+   "pairs": {
+    "adk_crystal_control": {
+     "n": 214,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.7458844737098804,
+     "released_status": "unresolved",
+     "E3": [
+      131.10367936781813
+     ],
+     "E3_ball": [
+      132.93879041028617
+     ],
+     "E25": [
+      129.68186640115346
+     ],
+     "E20": [
+      101.72865150145458
+     ],
+     "first_cert": [
+      1.8
+     ],
+     "first_cert_ball": [
+      1.8
+     ],
+     "nucleation": [
+      2.06
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      563
+     ],
+     "est_err3_TI_BASED": [
+      134.94188930387975
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      228.34723353385925
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.31411552629011963
+     ]
+    },
+    "adk_open_closed": {
+     "n": 214,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.9607615286840319,
+     "released_status": "multi-phase",
+     "E3": [
+      42.24779812188717
+     ],
+     "E3_ball": [
+      44.46740203859372
+     ],
+     "E25": [
+      38.86783727975467
+     ],
+     "E20": [
+      -11.371652167521233
+     ],
+     "first_cert": [
+      2.04
+     ],
+     "first_cert_ball": [
+      2.04
+     ],
+     "nucleation": [
+      2.12
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      505
+     ],
+     "est_err3_TI_BASED": [
+      49.39161423842006
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      229.2451024055481
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.15923847131596824
+     ]
+    },
+    "pscdb_B_38": {
+     "n": 210,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.6081199940001452,
+     "released_status": "unresolved",
+     "E3": [
+      41.75670152700991
+     ],
+     "E3_ball": [
+      43.54175727184452
+     ],
+     "E25": [
+      40.71603763617122
+     ],
+     "E20": [
+      37.7185061267719
+     ],
+     "first_cert": [
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66
+     ],
+     "nucleation": [
+      1.72
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      597
+     ],
+     "est_err3_TI_BASED": [
+      45.40353316895062
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      223.88779735565186
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.11188000599985481
+     ]
+    },
+    "pscdb_B_44": {
+     "n": 185,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.4410853069714404,
+     "released_status": "pass (retry)",
+     "E3": [
+      17.67364797574055
+     ],
+     "E3_ball": [
+      20.544872393915966
+     ],
+     "E25": [
+      14.656131617047095
+     ],
+     "E20": [
+      8.327614319937993
+     ],
+     "first_cert": [
+      1.7
+     ],
+     "first_cert_ball": [
+      1.62
+     ],
+     "nucleation": [
+      1.52
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      553
+     ],
+     "est_err3_TI_BASED": [
+      28.419303043520358
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      200.348308801651
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.07891469302855958
+     ]
+    },
+    "pscdb_CD_21": {
+     "n": 233,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.7205737016740676,
+     "released_status": "unresolved",
+     "E3": [
+      94.08798788577587
+     ],
+     "E3_ball": [
+      96.90016893193274
+     ],
+     "E25": [
+      86.73792692055576
+     ],
+     "E20": [
+      63.07523705671497
+     ],
+     "first_cert": [
+      1.88
+     ],
+     "first_cert_ball": [
+      1.88
+     ],
+     "nucleation": [
+      2.02
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      600
+     ],
+     "est_err3_TI_BASED": [
+      107.03810537913876
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      251.74716353416443
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.29942629832593237
+     ]
+    },
+    "pscdb_CL_64": {
+     "n": 71,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.4773226644302262,
+     "released_status": "pass",
+     "E3": [
+      -0.676418737516201
+     ],
+     "E3_ball": [
+      1.5341425533529218
+     ],
+     "E25": [
+      -1.559440270210814
+     ],
+     "E20": [
+      -3.572932759071932
+     ],
+     "first_cert": [
+      null
+     ],
+     "first_cert_ball": [
+      2.24
+     ],
+     "nucleation": [
+      1.54
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      171
+     ],
+     "est_err3_TI_BASED": [
+      4.257108014484743
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      87.62766480445862
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.06267733556977384
+     ]
+    },
+    "pscdb_ID_55": {
+     "n": 183,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.5703023968853314,
+     "released_status": "unresolved",
+     "E3": [
+      42.511448166928176
+     ],
+     "E3_ball": [
+      45.38834532675605
+     ],
+     "E25": [
+      39.792845636766515
+     ],
+     "E20": [
+      33.03857469535001
+     ],
+     "first_cert": [
+      1.7
+     ],
+     "first_cert_ball": [
+      1.68
+     ],
+     "nucleation": [
+      1.74
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      500
+     ],
+     "est_err3_TI_BASED": [
+      53.98062999164779
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      197.0770502090454
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.16969760311466864
+     ]
+    },
+    "pscdb_IL_55": {
+     "n": 238,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.6506434409398247,
+     "released_status": "multi-phase",
+     "E3": [
+      -5.828152311840995
+     ],
+     "E3_ball": [
+      -1.8325164521529587
+     ],
+     "E25": [
+      -12.22839718361638
+     ],
+     "E20": [
+      -28.4300419920678
+     ],
+     "first_cert": [
+      null
+     ],
+     "first_cert_ball": [
+      null
+     ],
+     "nucleation": [
+      1.72
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      632
+     ],
+     "est_err3_TI_BASED": [
+      17.83059901979982
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      257.01450991630554
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.06935655906017524
+     ]
+    },
+    "pscdb_IL_74": {
+     "n": 213,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.7754624885229682,
+     "released_status": "multi-phase",
+     "E3": [
+      -20.385932411146314
+     ],
+     "E3_ball": [
+      -16.641130363921775
+     ],
+     "E25": [
+      -24.67319214879649
+     ],
+     "E20": [
+      -39.131322508446374
+     ],
+     "first_cert": [
+      null
+     ],
+     "first_cert_ball": [
+      null
+     ],
+     "nucleation": [
+      1.84
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      523
+     ],
+     "est_err3_TI_BASED": [
+      2.0131022051953096
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      228.80019211769104
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.0645375114770319
+     ]
+    },
+    "pscdb_N_139": {
+     "n": 224,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.6177062448651904,
+     "released_status": "pass",
+     "E3": [
+      109.33779433866175
+     ],
+     "E3_ball": [
+      111.06506350906398
+     ],
+     "E25": [
+      107.71995469073318
+     ],
+     "E20": [
+      102.7334619170415
+     ],
+     "first_cert": [
+      1.68
+     ],
+     "first_cert_ball": [
+      1.68
+     ],
+     "nucleation": [
+      1.86
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      635
+     ],
+     "est_err3_TI_BASED": [
+      112.8782415249965
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      239.44418931007385
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.24229375513480966
+     ]
+    },
+    "pscdb_N_141": {
+     "n": 142,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.521030192024284,
+     "released_status": "pass",
+     "E3": [
+      30.108549004612996
+     ],
+     "E3_ball": [
+      32.14351447183867
+     ],
+     "E25": [
+      29.28701943180829
+     ],
+     "E20": [
+      26.46319119236739
+     ],
+     "first_cert": [
+      1.6
+     ],
+     "first_cert_ball": [
+      1.58
+     ],
+     "nucleation": [
+      1.66
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      394
+     ],
+     "est_err3_TI_BASED": [
+      34.8855176984232
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      158.7926058769226
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.138969807975716
+     ]
+    },
+    "pscdb_N_185": {
+     "n": 160,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.3450836816733218,
+     "released_status": "multi-phase",
+     "E3": [
+      26.068814350308458
+     ],
+     "E3_ball": [
+      29.334945938532655
+     ],
+     "E25": [
+      22.827975720904305
+     ],
+     "E20": [
+      16.70514361336018
+     ],
+     "first_cert": [
+      1.5
+     ],
+     "first_cert_ball": [
+      1.48
+     ],
+     "nucleation": [
+      1.48
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      486
+     ],
+     "est_err3_TI_BASED": [
+      41.52701606209121
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      174.2726755142212
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.13491631832667816
+     ]
+    },
+    "pscdb_N_217": {
+     "n": 202,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.5840232654069897,
+     "released_status": "unresolved",
+     "E3": [
+      43.57125520203249
+     ],
+     "E3_ball": [
+      46.07356480137855
+     ],
+     "E25": [
+      41.497576136328234
+     ],
+     "E20": [
+      36.06516679260881
+     ],
+     "first_cert": [
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66
+     ],
+     "nucleation": [
+      1.72
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      569
+     ],
+     "est_err3_TI_BASED": [
+      51.18519731973856
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      218.46685695648193
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.1359767345930103
+     ]
+    },
+    "pscdb_N_261": {
+     "n": 181,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.5257417991318243,
+     "released_status": "unresolved",
+     "E3": [
+      117.43230561052496
+     ],
+     "E3_ball": [
+      119.28511774126264
+     ],
+     "E25": [
+      116.17100604489178
+     ],
+     "E20": [
+      113.04521780763787
+     ],
+     "first_cert": [
+      1.58
+     ],
+     "first_cert_ball": [
+      1.58
+     ],
+     "nucleation": [
+      1.84
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      523
+     ],
+     "est_err3_TI_BASED": [
+      121.36136199887824
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      196.6020941734314
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.3142582008681758
+     ]
+    },
+    "pscdb_N_271": {
+     "n": 235,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.573260556188608,
+     "released_status": "unresolved",
+     "E3": [
+      80.64869838528239
+     ],
+     "E3_ball": [
+      82.30493524329358
+     ],
+     "E25": [
+      79.42689383002471
+     ],
+     "E20": [
+      75.4421549460526
+     ],
+     "first_cert": [
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66
+     ],
+     "nucleation": [
+      1.76
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      681
+     ],
+     "est_err3_TI_BASED": [
+      83.82243162774648
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      251.74164581298828
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.18673944381139207
+     ]
+    },
+    "pscdb_N_288": {
+     "n": 239,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.6573104986520706,
+     "released_status": "unresolved",
+     "E3": [
+      113.56086789070378
+     ],
+     "E3_ball": [
+      115.20337657024947
+     ],
+     "E25": [
+      112.1658992347991
+     ],
+     "E20": [
+      108.0359910354889
+     ],
+     "first_cert": [
+      1.72
+     ],
+     "first_cert_ball": [
+      1.7
+     ],
+     "nucleation": [
+      1.9
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      671
+     ],
+     "est_err3_TI_BASED": [
+      116.91108930487826
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      254.85005640983582
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.24268950134792933
+     ]
+    },
+    "pscdb_N_74": {
+     "n": 50,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.519833738318695,
+     "released_status": "unresolved",
+     "E3": [
+      -0.3569135277007831
+     ],
+     "E3_ball": [
+      0.11922869681660586
+     ],
+     "E25": [
+      -0.8366494107777385
+     ],
+     "E20": [
+      -2.0707469296986005
+     ],
+     "first_cert": [
+      null
+     ],
+     "first_cert_ball": [
+      2.68
+     ],
+     "nucleation": [
+      1.52
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      115
+     ],
+     "est_err3_TI_BASED": [
+      0.25560097532812165
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      63.009357929229736
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.00016626168130495778
+     ]
+    },
+    "pscdb_N_75": {
+     "n": 207,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.3931190282042185,
+     "released_status": "unresolved",
+     "E3": [
+      151.9317390599872
+     ],
+     "E3_ball": [
+      154.44745769916722
+     ],
+     "E25": [
+      149.3847541458431
+     ],
+     "E20": [
+      144.0565554141026
+     ],
+     "first_cert": [
+      1.48
+     ],
+     "first_cert_ball": [
+      1.48
+     ],
+     "nucleation": [
+      1.72
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      660
+     ],
+     "est_err3_TI_BASED": [
+      160.43484402660658
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      223.3199987411499
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.32688097179578146
+     ]
+    },
+    "pscdb_N_82": {
+     "n": 185,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.759349031216861,
+     "released_status": "unresolved",
+     "E3": [
+      66.82080876014425
+     ],
+     "E3_ball": [
+      69.81873676345026
+     ],
+     "E25": [
+      63.84778625470176
+     ],
+     "E20": [
+      55.69672903042806
+     ],
+     "first_cert": [
+      1.86
+     ],
+     "first_cert_ball": [
+      1.84
+     ],
+     "nucleation": [
+      2.0
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      461
+     ],
+     "est_err3_TI_BASED": [
+      77.6690032859193
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      201.4320728778839
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.24065096878313907
+     ]
+    },
+    "pscdb_O_16": {
+     "n": 154,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.2155983450396088,
+     "released_status": "multi-phase",
+     "E3": [
+      -19.295765584549372
+     ],
+     "E3_ball": [
+      -15.27090333461615
+     ],
+     "E25": [
+      -21.866670138280597
+     ],
+     "E20": [
+      -27.017935524226004
+     ],
+     "first_cert": [
+      null
+     ],
+     "first_cert_ball": [
+      null
+     ],
+     "nucleation": [
+      1.36
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      450
+     ],
+     "est_err3_TI_BASED": [
+      5.304430673885008
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      171.08673739433289
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.14440165496039126
+     ]
+    },
+    "pscdb_O_17": {
+     "n": 124,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.6484101432830518,
+     "released_status": "pass",
+     "E3": [
+      13.162643060474238
+     ],
+     "E3_ball": [
+      16.011505880078516
+     ],
+     "E25": [
+      10.463771549650573
+     ],
+     "E20": [
+      3.7410982924586733
+     ],
+     "first_cert": [
+      1.86
+     ],
+     "first_cert_ball": [
+      1.8
+     ],
+     "nucleation": [
+      1.8
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      302
+     ],
+     "est_err3_TI_BASED": [
+      24.38104397302476
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      139.07196950912476
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.15158985671694825
+     ]
+    },
+    "pscdb_O_19": {
+     "n": 103,
+     "seeds": [
+      101
+     ],
+     "beta_c_2P_TI_BASED": 1.4634842816765703,
+     "released_status": "pass",
+     "E3": [
+      12.395768226138443
+     ],
+     "E3_ball": [
+      14.439611044001595
+     ],
+     "E25": [
+      11.887690960716782
+     ],
+     "E20": [
+      10.69608187054746
+     ],
+     "first_cert": [
+      1.52
+     ],
+     "first_cert_ball": [
+      1.52
+     ],
+     "nucleation": [
+      1.56
+     ],
+     "S_star_source": [
+      "cached_witness"
+     ],
+     "S_star": [
+      282
+     ],
+     "est_err3_TI_BASED": [
+      17.435521779009946
+     ],
+     "proposals": [
+      198705152
+     ],
+     "seconds": [
+      116.3973982334137
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.09651571832342976
+     ]
+    }
+   }
+  },
+  "T17": {
+   "logT_per_point": 17,
+   "seeds": [
+    101,
+    102
+   ],
+   "n_pairs": 22,
+   "n_pairs_all_seeds": 22,
+   "log2_total_proposals_per_run": 25.566054038171092,
+   "RIGOROUS": {
+    "certified_all_seeds_at3": 19,
+    "denominator": 22,
+    "certified_any_seed_at3": 19,
+    "runs_certified_at3": 38,
+    "runs": 44,
+    "certified_all_seeds_at3_ball": 19,
+    "median_E3_runs": 72.48683892059285,
+    "max_E3_runs": 279.50396895702806,
+    "min_E3_runs": -15.680900586685311,
+    "median_minseed_E3": 54.44824817888684,
+    "max_minseed_E3": 276.33770181632167,
+    "runs_certified_at25": 38,
+    "runs_certified_at20": 34,
+    "not_returned_16": {
+     "certified_all_seeds": 14,
+     "denominator": 16
+    },
+    "returned_6": {
+     "certified_all_seeds": 5,
+     "denominator": 6
+    },
+    "not_certified_pairs": [
+     "pscdb_CL_64",
+     "pscdb_N_74",
+     "pscdb_O_16"
+    ]
+   },
+   "median_nucleation_offset_TI_BASED_betac": 0.2190765821722639,
+   "TI_BASED": {
+    "note": "two-phase estimated error Lambda_2P(3)-Lambda_FP(3); context only",
+    "median_est_err3": 85.34379751882437
+   },
+   "compute": {
+    "total_proposals": 2185756672,
+    "total_seconds": 2285.27854681015
+   },
+   "pairs": {
+    "adk_crystal_control": {
+     "n": 214,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.7458844737098804,
+     "released_status": "unresolved",
+     "E3": [
+      157.81829142582183,
+      155.67221344323707
+     ],
+     "E3_ball": [
+      159.65340246828987,
+      157.5073244857051
+     ],
+     "E25": [
+      156.36925011010726,
+      154.13229291609696
+     ],
+     "E20": [
+      101.75394707055648,
+      102.00681615523263
+     ],
+     "first_cert": [
+      1.8,
+      1.8
+     ],
+     "first_cert_ball": [
+      1.8,
+      1.8
+     ],
+     "nucleation": [
+      2.12,
+      2.12
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      563,
+      563
+     ],
+     "est_err3_TI_BASED": [
+      161.65650136188344,
+      159.5104233792987
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      60.99459362030029,
+      61.588176012039185
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.3741155262901197,
+      0.3741155262901197
+     ]
+    },
+    "adk_open_closed": {
+     "n": 214,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.9607615286840319,
+     "released_status": "multi-phase",
+     "E3": [
+      68.09592046431476,
+      58.714091494995046
+     ],
+     "E3_ball": [
+      70.3155243810213,
+      60.93369541170159
+     ],
+     "E25": [
+      64.40225499800636,
+      55.69145169905596
+     ],
+     "E20": [
+      -11.3545975461426,
+      -11.288021567545684
+     ],
+     "first_cert": [
+      2.04,
+      2.04
+     ],
+     "first_cert_ball": [
+      2.04,
+      2.04
+     ],
+     "nucleation": [
+      2.18,
+      2.16
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      505,
+      505
+     ],
+     "est_err3_TI_BASED": [
+      75.23973658084765,
+      65.85790761152793
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      61.5023889541626,
+      60.82217764854431
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.2192384713159683,
+      0.19923847131596828
+     ]
+    },
+    "pscdb_B_38": {
+     "n": 210,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6081199940001452,
+     "released_status": "unresolved",
+     "E3": [
+      166.02229380962308,
+      137.34765050924875
+     ],
+     "E3_ball": [
+      167.8073495544577,
+      139.13270625408336
+     ],
+     "E25": [
+      165.01979510662022,
+      136.16412010865474
+     ],
+     "E20": [
+      161.82773618734927,
+      133.23376407024307
+     ],
+     "first_cert": [
+      1.66,
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66,
+      1.66
+     ],
+     "nucleation": [
+      1.98,
+      1.92
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      597,
+      597
+     ],
+     "est_err3_TI_BASED": [
+      169.6691254515638,
+      140.99448215118946
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      60.768728733062744,
+      59.62059140205383
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.3718800059998548,
+      0.31188000599985477
+     ]
+    },
+    "pscdb_B_44": {
+     "n": 185,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.4410853069714404,
+     "released_status": "pass (retry)",
+     "E3": [
+      72.86338155728322,
+      30.19794251105941
+     ],
+     "E3_ball": [
+      75.73460597545863,
+      33.069166929234825
+     ],
+     "E25": [
+      69.65154017748182,
+      27.206151917594525
+     ],
+     "E20": [
+      63.303793748038515,
+      20.972913214184473
+     ],
+     "first_cert": [
+      1.54,
+      1.54
+     ],
+     "first_cert_ball": [
+      1.54,
+      1.54
+     ],
+     "nucleation": [
+      1.66,
+      1.56
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      553,
+      553
+     ],
+     "est_err3_TI_BASED": [
+      83.60903662506303,
+      40.94359757883922
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      53.80415868759155,
+      53.4543399810791
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.21891469302855948,
+      0.11891469302855961
+     ]
+    },
+    "pscdb_CD_21": {
+     "n": 233,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.7205737016740676,
+     "released_status": "unresolved",
+     "E3": [
+      74.12844091922284,
+      88.10687521487716
+     ],
+     "E3_ball": [
+      76.9406219653797,
+      90.91905626103403
+     ],
+     "E25": [
+      67.00088458886012,
+      80.6047199363536
+     ],
+     "E20": [
+      47.56000420759392,
+      59.380057155591885
+     ],
+     "first_cert": [
+      1.88,
+      1.88
+     ],
+     "first_cert_ball": [
+      1.88,
+      1.88
+     ],
+     "nucleation": [
+      1.96,
+      2.0
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      600,
+      600
+     ],
+     "est_err3_TI_BASED": [
+      87.07855841258572,
+      101.05699270824005
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      66.36778354644775,
+      66.92844867706299
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.23942629832593232,
+      0.27942629832593235
+     ]
+    },
+    "pscdb_CL_64": {
+     "n": 71,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.4773226644302262,
+     "released_status": "pass",
+     "E3": [
+      -0.7604095084919891,
+      -3.0186221956664667
+     ],
+     "E3_ball": [
+      1.4501517823771337,
+      -0.8080609047973439
+     ],
+     "E25": [
+      -1.5736116416708228,
+      -3.919933256254126
+     ],
+     "E20": [
+      -3.608260053739457,
+      -6.038591220324747
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      2.24,
+      null
+     ],
+     "nucleation": [
+      1.54,
+      1.5
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      171,
+      171
+     ],
+     "est_err3_TI_BASED": [
+      4.173117243508955,
+      1.914904556334477
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      22.119357347488403,
+      22.103689193725586
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.06267733556977384,
+      0.022677335569773804
+     ]
+    },
+    "pscdb_ID_55": {
+     "n": 183,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.5703023968853314,
+     "released_status": "unresolved",
+     "E3": [
+      279.50396895702806,
+      276.33770181632167
+     ],
+     "E3_ball": [
+      282.38086611685594,
+      279.21459897614955
+     ],
+     "E25": [
+      204.8761922388885,
+      201.61283825532723
+     ],
+     "E20": [
+      111.13847223258142,
+      108.38833856558938
+     ],
+     "first_cert": [
+      1.7,
+      1.7
+     ],
+     "first_cert_ball": [
+      1.68,
+      1.68
+     ],
+     "nucleation": [
+      null,
+      null
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      500,
+      500
+     ],
+     "est_err3_TI_BASED": [
+      290.9731507817477,
+      287.8068836410413
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      51.77772760391235,
+      51.996559858322144
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      null,
+      null
+     ]
+    },
+    "pscdb_IL_55": {
+     "n": 238,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6506434409398247,
+     "released_status": "multi-phase",
+     "E3": [
+      56.58894493242178,
+      49.40921425004899
+     ],
+     "E3_ball": [
+      60.58458079210982,
+      53.404850109737026
+     ],
+     "E25": [
+      50.90349001705704,
+      43.60809295793433
+     ],
+     "E20": [
+      34.67317143897276,
+      27.95009913265767
+     ],
+     "first_cert": [
+      1.82,
+      1.82
+     ],
+     "first_cert_ball": [
+      1.8,
+      1.8
+     ],
+     "nucleation": [
+      1.86,
+      1.84
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      632,
+      632
+     ],
+     "est_err3_TI_BASED": [
+      80.2476962640626,
+      73.0679655816898
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      70.04639601707458,
+      70.14086866378784
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.20935655906017536,
+      0.18935655906017534
+     ]
+    },
+    "pscdb_IL_74": {
+     "n": 213,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.7754624885229682,
+     "released_status": "multi-phase",
+     "E3": [
+      20.30488542180092,
+      5.693217941332023
+     ],
+     "E3_ball": [
+      24.049687469025457,
+      9.438019988556562
+     ],
+     "E25": [
+      15.978675552416007,
+      1.4630686086495643
+     ],
+     "E20": [
+      2.2560079854806645,
+      -12.884995229037486
+     ],
+     "first_cert": [
+      1.98,
+      2.42
+     ],
+     "first_cert_ball": [
+      1.96,
+      2.22
+     ],
+     "nucleation": [
+      1.92,
+      1.9
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      523,
+      523
+     ],
+     "est_err3_TI_BASED": [
+      42.70392003814254,
+      28.092252557673646
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      61.42269945144653,
+      61.54714369773865
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.14453751147703175,
+      0.12453751147703174
+     ]
+    },
+    "pscdb_N_139": {
+     "n": 224,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6177062448651904,
+     "released_status": "pass",
+     "E3": [
+      162.164125909605,
+      114.8759013205754
+     ],
+     "E3_ball": [
+      163.89139508000721,
+      116.60317049097762
+     ],
+     "E25": [
+      160.6619095450626,
+      112.95920146604271
+     ],
+     "E20": [
+      155.26393194496495,
+      108.09805512408298
+     ],
+     "first_cert": [
+      1.68,
+      1.68
+     ],
+     "first_cert_ball": [
+      1.68,
+      1.68
+     ],
+     "nucleation": [
+      1.96,
+      1.86
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      635,
+      635
+     ],
+     "est_err3_TI_BASED": [
+      165.70457309593974,
+      118.41634850691014
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      63.808698892593384,
+      63.900824785232544
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.34229375513480953,
+      0.24229375513480966
+     ]
+    },
+    "pscdb_N_141": {
+     "n": 142,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.521030192024284,
+     "released_status": "pass",
+     "E3": [
+      47.32876987558484,
+      6.930118854263128
+     ],
+     "E3_ball": [
+      49.363735342810514,
+      8.965084321488803
+     ],
+     "E25": [
+      46.489386915583054,
+      5.97988267363985
+     ],
+     "E20": [
+      43.69592121225469,
+      3.0378042485502874
+     ],
+     "first_cert": [
+      1.6,
+      1.8
+     ],
+     "first_cert_ball": [
+      1.58,
+      1.7
+     ],
+     "nucleation": [
+      1.72,
+      1.58
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      394,
+      394
+     ],
+     "est_err3_TI_BASED": [
+      52.105738569395044,
+      11.707087548073332
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      40.76872372627258,
+      40.45773434638977
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.19896980797571606,
+      0.05896980797571616
+     ]
+    },
+    "pscdb_N_185": {
+     "n": 160,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.3450836816733218,
+     "released_status": "multi-phase",
+     "E3": [
+      72.11029628390247,
+      25.314685271125654
+     ],
+     "E3_ball": [
+      75.37642787212667,
+      28.580816859349852
+     ],
+     "E25": [
+      68.81070349011998,
+      22.155479414802585
+     ],
+     "E20": [
+      62.75579733167285,
+      16.154698164802653
+     ],
+     "first_cert": [
+      1.48,
+      1.5
+     ],
+     "first_cert_ball": [
+      1.48,
+      1.48
+     ],
+     "nucleation": [
+      1.6,
+      1.48
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      486,
+      486
+     ],
+     "est_err3_TI_BASED": [
+      87.56849799568522,
+      40.7728869829084
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      45.59597301483154,
+      46.616557598114014
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.25491631832667827,
+      0.13491631832667816
+     ]
+    },
+    "pscdb_N_217": {
+     "n": 202,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.5840232654069897,
+     "released_status": "unresolved",
+     "E3": [
+      95.69383395009982,
+      50.18240486277864
+     ],
+     "E3_ball": [
+      98.19614354944588,
+      52.6847144621247
+     ],
+     "E25": [
+      93.49281425608933,
+      48.15809033844607
+     ],
+     "E20": [
+      88.41113693370175,
+      42.74425669485072
+     ],
+     "first_cert": [
+      1.66,
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66,
+      1.66
+     ],
+     "nucleation": [
+      1.84,
+      1.74
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      569,
+      569
+     ],
+     "est_err3_TI_BASED": [
+      103.30777606780589,
+      57.796346980484714
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      57.8806095123291,
+      58.059680461883545
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.2559767345930104,
+      0.1559767345930103
+     ]
+    },
+    "pscdb_N_261": {
+     "n": 181,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.5257417991318243,
+     "released_status": "unresolved",
+     "E3": [
+      141.27374684129882,
+      135.26573846930978
+     ],
+     "E3_ball": [
+      143.1265589720365,
+      137.11855060004746
+     ],
+     "E25": [
+      139.98127417996238,
+      133.86809785956848
+     ],
+     "E20": [
+      137.0305387063296,
+      130.8623156177473
+     ],
+     "first_cert": [
+      1.58,
+      1.58
+     ],
+     "first_cert_ball": [
+      1.58,
+      1.58
+     ],
+     "nucleation": [
+      1.9,
+      1.88
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      523,
+      523
+     ],
+     "est_err3_TI_BASED": [
+      145.2028032296521,
+      139.19479485766306
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      52.14644765853882,
+      52.249682903289795
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.37425820086817563,
+      0.3542582008681756
+     ]
+    },
+    "pscdb_N_271": {
+     "n": 235,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.573260556188608,
+     "released_status": "unresolved",
+     "E3": [
+      198.2022733542558,
+      194.51099324357847
+     ],
+     "E3_ball": [
+      199.858510212267,
+      196.16723010158967
+     ],
+     "E25": [
+      197.02504740210725,
+      193.09802548539983
+     ],
+     "E20": [
+      192.90775743933864,
+      189.16060981564078
+     ],
+     "first_cert": [
+      1.66,
+      1.66
+     ],
+     "first_cert_ball": [
+      1.66,
+      1.66
+     ],
+     "nucleation": [
+      1.98,
+      1.98
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      681,
+      681
+     ],
+     "est_err3_TI_BASED": [
+      201.3760065967199,
+      197.68472648604256
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      67.53826141357422,
+      67.48165440559387
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.40673944381139204,
+      0.40673944381139204
+     ]
+    },
+    "pscdb_N_288": {
+     "n": 239,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6573104986520706,
+     "released_status": "unresolved",
+     "E3": [
+      142.0674597130096,
+      180.43296106595562
+     ],
+     "E3_ball": [
+      143.7099683925553,
+      182.07546974550132
+     ],
+     "E25": [
+      140.79258758166202,
+      179.1725958722709
+     ],
+     "E20": [
+      136.17244727709658,
+      165.61794629036172
+     ],
+     "first_cert": [
+      1.72,
+      1.72
+     ],
+     "first_cert_ball": [
+      1.7,
+      1.7
+     ],
+     "nucleation": [
+      1.94,
+      2.02
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      671,
+      671
+     ],
+     "est_err3_TI_BASED": [
+      145.4176811271841,
+      183.7831824801301
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      69.51290988922119,
+      69.0371642112732
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.28268950134792936,
+      0.36268950134792943
+     ]
+    },
+    "pscdb_N_74": {
+     "n": 50,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.519833738318695,
+     "released_status": "unresolved",
+     "E3": [
+      -0.6215138491525636,
+      -1.8664748883778657
+     ],
+     "E3_ball": [
+      -0.1453716246351746,
+      -1.3903326638604767
+     ],
+     "E25": [
+      -1.1180238080555682,
+      -2.5417633812164127
+     ],
+     "E20": [
+      -2.3802635948394197,
+      -3.8158872978423233
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      null,
+      null
+     ],
+     "nucleation": [
+      1.54,
+      1.48
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      115,
+      115
+     ],
+     "est_err3_TI_BASED": [
+      -0.008999346123658825,
+      -1.253960385348961
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      15.874055862426758,
+      15.756102800369263
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.020166261681304976,
+      -0.03983373831869508
+     ]
+    },
+    "pscdb_N_75": {
+     "n": 207,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.3931190282042185,
+     "released_status": "unresolved",
+     "E3": [
+      139.6700941370948,
+      173.7488638209329
+     ],
+     "E3_ball": [
+      142.18581277627482,
+      176.26458246011293
+     ],
+     "E25": [
+      137.16718934685218,
+      171.5043222458189
+     ],
+     "E20": [
+      131.87460499117992,
+      166.06861769666511
+     ],
+     "first_cert": [
+      1.48,
+      1.48
+     ],
+     "first_cert_ball": [
+      1.48,
+      1.48
+     ],
+     "nucleation": [
+      1.7,
+      1.76
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      660,
+      660
+     ],
+     "est_err3_TI_BASED": [
+      148.17319910371418,
+      182.2519687875523
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      59.19421935081482,
+      60.00113534927368
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.30688097179578144,
+      0.3668809717957815
+     ]
+    },
+    "pscdb_N_82": {
+     "n": 185,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.759349031216861,
+     "released_status": "unresolved",
+     "E3": [
+      88.77824666958827,
+      109.89478699348138
+     ],
+     "E3_ball": [
+      91.77617467289429,
+      112.89271499678739
+     ],
+     "E25": [
+      85.89832647305502,
+      107.14990624091797
+     ],
+     "E20": [
+      59.066192175366155,
+      59.0025141459879
+     ],
+     "first_cert": [
+      1.86,
+      1.86
+     ],
+     "first_cert_ball": [
+      1.84,
+      1.84
+     ],
+     "nucleation": [
+      2.06,
+      2.12
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      461,
+      461
+     ],
+     "est_err3_TI_BASED": [
+      99.62644119536333,
+      120.74298151925643
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      52.956279039382935,
+      52.77017521858215
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.3006509687831391,
+      0.3606509687831392
+     ]
+    },
+    "pscdb_O_16": {
+     "n": 154,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.2155983450396088,
+     "released_status": "multi-phase",
+     "E3": [
+      -15.680900586685311,
+      -12.83977916741469
+     ],
+     "E3_ball": [
+      -11.65603833675209,
+      -8.814916917481469
+     ],
+     "E25": [
+      -18.050832913955674,
+      -15.288978742202744
+     ],
+     "E20": [
+      -23.284072431167715,
+      -20.389152132909203
+     ],
+     "first_cert": [
+      null,
+      null
+     ],
+     "first_cert_ball": [
+      null,
+      null
+     ],
+     "nucleation": [
+      1.38,
+      1.34
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      450,
+      450
+     ],
+     "est_err3_TI_BASED": [
+      8.919295671749069,
+      11.76041709101969
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      43.749884843826294,
+      44.27534294128418
+     ],
+     "certified_all_seeds_3": false,
+     "certified_any_seed_3": false,
+     "certified_all_seeds_3_ball": false,
+     "nuc_offset": [
+      0.16440165496039105,
+      0.12440165496039124
+     ]
+    },
+    "pscdb_O_17": {
+     "n": 124,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.6484101432830518,
+     "released_status": "pass",
+     "E3": [
+      24.89682218848543,
+      2.919261560230211
+     ],
+     "E3_ball": [
+      27.74568500808971,
+      5.7681243798344894
+     ],
+     "E25": [
+      22.143573973763637,
+      0.21989930131894653
+     ],
+     "E20": [
+      15.569719883390917,
+      -6.4156239225580975
+     ],
+     "first_cert": [
+      1.8,
+      2.48
+     ],
+     "first_cert_ball": [
+      1.78,
+      2.2
+     ],
+     "nucleation": [
+      1.86,
+      1.74
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      302,
+      302
+     ],
+     "est_err3_TI_BASED": [
+      36.11522310103595,
+      14.137662472780733
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      34.77008032798767,
+      35.17649793624878
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.2115898567169483,
+      0.09158985671694819
+     ]
+    },
+    "pscdb_O_19": {
+     "n": 103,
+     "seeds": [
+      101,
+      102
+     ],
+     "beta_c_2P_TI_BASED": 1.4634842816765703,
+     "released_status": "pass",
+     "E3": [
+      35.96239656781313,
+      26.072317832461522
+     ],
+     "E3_ball": [
+      38.00623938567628,
+      28.116160650324673
+     ],
+     "E25": [
+      35.4683682983632,
+      25.54292846376859
+     ],
+     "E20": [
+      34.31934786175839,
+      24.370383450340796
+     ],
+     "first_cert": [
+      1.52,
+      1.52
+     ],
+     "first_cert_ball": [
+      1.52,
+      1.52
+     ],
+     "nucleation": [
+      1.68,
+      1.62
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness"
+     ],
+     "S_star": [
+      282,
+      282
+     ],
+     "est_err3_TI_BASED": [
+      41.00215012068463,
+      31.112071385333024
+     ],
+     "proposals": [
+      49676288,
+      49676288
+     ],
+     "seconds": [
+      29.3558509349823,
+      29.338170289993286
+     ],
+     "certified_all_seeds_3": true,
+     "certified_any_seed_3": true,
+     "certified_all_seeds_3_ball": true,
+     "nuc_offset": [
+      0.21651571832342964,
+      0.1565157183234298
+     ]
+    }
+   }
+  }
+ },
+ "silent": {
+  "T19": {
+   "RIGOROUS": {
+    "witness_success": {
+     "n_instances": 14,
+     "offsets": [
+      "-0.1",
+      "+0.03",
+      "+0.08",
+      "+0.15"
+     ],
+     "instances_certified_all_seeds": [
+      0,
+      14,
+      14,
+      14
+     ],
+     "instances_certified_any_seed": [
+      0,
+      14,
+      14,
+      14
+     ],
+     "runs_certified": [
+      0,
+      42,
+      42,
+      42
+     ],
+     "runs_certified_ball": [
+      0,
+      42,
+      42,
+      42
+     ],
+     "runs": 42
+    },
+    "witness_failure": {
+     "n_instances": 2,
+     "offsets": [
+      "-0.1",
+      "+0.03",
+      "+0.08",
+      "+0.15"
+     ],
+     "instances_certified_all_seeds": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "instances_certified_any_seed": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "runs_certified": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "runs_certified_ball": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "runs": 6
+    }
+   },
+   "instances": {
+    "n40_d7_q0.03_s0": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.0911146463304975,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -9.63270586415112,
+       1.9059672321878054,
+       6.23590931713602,
+       7.282329878926504
+      ],
+      [
+       -9.628887681523764,
+       1.9106172308526368,
+       6.241873724103186,
+       12.198428071777244
+      ],
+      [
+       -9.638302946924966,
+       1.8970032798054035,
+       2.9980459201735528,
+       3.0390561515094987
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d7_q0.03_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2799532858670053,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -7.727680959264234,
+       1.7161485994261625,
+       2.827981033762512,
+       2.8981739143929985
+      ],
+      [
+       -7.72783031102,
+       1.6473494534097313,
+       1.9979779947203724,
+       2.0666281481983333
+      ],
+      [
+       -7.729228206833,
+       1.717279224833078,
+       5.24174223625684,
+       8.72505742116789
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d7_q0.03_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.0928249709373827,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -8.808538871963606,
+       2.679117434938945,
+       6.430182167808425,
+       6.484742843111576
+      ],
+      [
+       -8.807470530390532,
+       2.6814968606235823,
+       6.9859613426131375,
+       12.770317672213139
+      ],
+      [
+       -8.810908236384165,
+       2.6768225919010433,
+       6.9808789419732875,
+       10.210821231007799
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d7_q0.03_s3": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1708693669991617,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -8.603381653348407,
+       1.9719995585682,
+       5.92875414828481,
+       8.990241133173498
+      ],
+      [
+       -8.599055067896643,
+       1.9751734722060235,
+       5.936380572756349,
+       11.343973373532492
+      ],
+      [
+       -8.602780392209496,
+       1.9772702265979945,
+       5.937935653170172,
+       6.324722711046746
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s0": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.0826001756201113,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -9.468145455876765,
+       1.718672208269652,
+       5.88364130985758,
+       11.58445962599933
+      ],
+      [
+       -9.469991829116964,
+       1.7139042842787546,
+       5.193098891377645,
+       5.231973337610754
+      ],
+      [
+       -9.43672478759271,
+       1.7516129253310453,
+       5.920957655072442,
+       11.62411793116749
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.3307201064358782,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -7.25156655204276,
+       1.240979182680661,
+       4.381634504755539,
+       8.628605446299105
+      ],
+      [
+       -7.262178209821144,
+       1.2269549126230288,
+       4.360109459678597,
+       5.572310735821958
+      ],
+      [
+       -7.253629920204247,
+       1.2366253300907317,
+       4.3744620352985635,
+       7.346188673774634
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2083964558157687,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -7.760116203506556,
+       1.9479342929126915,
+       5.552514283299644,
+       10.46536251620472
+      ],
+      [
+       -7.803348910212293,
+       1.901398450653005,
+       5.50083842957045,
+       10.416903834462431
+      ],
+      [
+       -7.785799890080881,
+       1.9098163927000655,
+       5.3615327540638305,
+       5.610207553029255
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s3": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2045682610658306,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -8.02228383974213,
+       1.738435233871371,
+       5.361712772488829,
+       10.30992367947124
+      ],
+      [
+       -8.041164942939872,
+       1.715549978057794,
+       2.8474958010914406,
+       2.8963376224440935
+      ],
+      [
+       -8.017352251569235,
+       1.7407258594435575,
+       5.258203012585824,
+       5.524623491406601
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s0": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2413052426829547,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -16.47443981320052,
+       0.6017898713112686,
+       7.016406325753621,
+       15.849358996804625
+      ],
+      [
+       -16.510562293275086,
+       0.5724521869978219,
+       6.9918482295037165,
+       15.825162446117474
+      ],
+      [
+       -16.514882258319744,
+       0.5655390838941798,
+       6.977689863300441,
+       15.81171456187576
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1429032293097006,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -16.21132287460955,
+       2.8342823534966612,
+       9.99309818150212,
+       19.861080913003377
+      ],
+      [
+       -16.2067617768287,
+       2.8321560091337403,
+       9.99970097996399,
+       19.871447254912113
+      ],
+      [
+       -16.179226970577133,
+       2.8700170060158996,
+       10.033622531668442,
+       19.914625802771354
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.108141191705389,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -15.781375260575516,
+       4.015120463148861,
+       11.460417666212834,
+       21.71588683900842
+      ],
+      [
+       -15.762922715409502,
+       4.031670943037767,
+       11.47558656956366,
+       21.737009219582973
+      ],
+      [
+       -15.77013709249485,
+       4.024691752211339,
+       11.465628959751257,
+       21.723688978926447
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s3": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1125935138082566,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -16.785276585165605,
+       2.810178973929169,
+       10.18281991682062,
+       20.342411723232317
+      ],
+      [
+       -16.815986266358607,
+       2.777952193991439,
+       10.152632515684871,
+       20.310073660310167
+      ],
+      [
+       -16.796264506880362,
+       2.798785243129828,
+       10.168010504818085,
+       20.327260008907388
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s0": {
+     "witness_success": false,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2775228809592973,
+     "cert": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "E": [
+      [
+       -77.11966002518332,
+       -68.37956206820797,
+       -65.21666323715837,
+       -60.99076589574807
+      ],
+      [
+       -77.10675612249369,
+       -68.35388568932206,
+       -65.19100819514583,
+       -60.961604272746996
+      ],
+      [
+       -77.11192918386453,
+       -68.36195836057658,
+       -65.20298981657024,
+       -60.971668063386204
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.176168995124472,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -13.580935759130995,
+       4.24693203427006,
+       10.898127609348421,
+       20.00102608753855
+      ],
+      [
+       -13.593137809657975,
+       4.240879089450971,
+       10.896679409758406,
+       20.0119737448058
+      ],
+      [
+       -13.540697805944973,
+       4.279539315001273,
+       10.925823326206284,
+       20.050632182534628
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1005933485642214,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -15.28020820830659,
+       4.051082078393392,
+       11.28176308387134,
+       21.194463384723804
+      ],
+      [
+       -15.31391260519024,
+       4.019541935698271,
+       11.245198143736616,
+       21.162046930726433
+      ],
+      [
+       -15.338524822457543,
+       3.9940065175057384,
+       11.222425281302208,
+       21.13951511201867
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s3": {
+     "witness_success": false,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.164285783478566,
+     "cert": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "E": [
+      [
+       -87.89201843887949,
+       -79.00176399857193,
+       -75.79834156916928,
+       -71.5035988965669
+      ],
+      [
+       -87.91321706253675,
+       -79.03086933571487,
+       -75.8231764436403,
+       -71.54255429894116
+      ],
+      [
+       -87.86746450668963,
+       -78.98557872635516,
+       -75.78494766416543,
+       -71.49897470273962
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    }
+   },
+   "compute": {
+    "total_proposals": 3320315904,
+    "witness_search_proposals": 452984832,
+    "total_seconds": 1273.1105263233185
+   }
+  },
+  "T17": {
+   "RIGOROUS": {
+    "witness_success": {
+     "n_instances": 14,
+     "offsets": [
+      "-0.1",
+      "+0.03",
+      "+0.08",
+      "+0.15"
+     ],
+     "instances_certified_all_seeds": [
+      0,
+      14,
+      14,
+      14
+     ],
+     "instances_certified_any_seed": [
+      0,
+      14,
+      14,
+      14
+     ],
+     "runs_certified": [
+      0,
+      42,
+      42,
+      42
+     ],
+     "runs_certified_ball": [
+      0,
+      42,
+      42,
+      42
+     ],
+     "runs": 42
+    },
+    "witness_failure": {
+     "n_instances": 2,
+     "offsets": [
+      "-0.1",
+      "+0.03",
+      "+0.08",
+      "+0.15"
+     ],
+     "instances_certified_all_seeds": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "instances_certified_any_seed": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "runs_certified": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "runs_certified_ball": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "runs": 6
+    }
+   },
+   "instances": {
+    "n40_d7_q0.03_s0": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.0911146463304975,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -9.646103729446509,
+       1.8953013990324905,
+       6.224834796707057,
+       12.175350855310995
+      ],
+      [
+       -9.619820027867746,
+       1.9229227598112857,
+       6.25537338745616,
+       12.212141898910431
+      ],
+      [
+       -9.626602493484626,
+       1.910965663711437,
+       6.236890679478847,
+       12.190441835840744
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d7_q0.03_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2799532858670053,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -7.694691864212132,
+       1.758000129501255,
+       5.283198951522735,
+       7.227063239852811
+      ],
+      [
+       -7.749326695958558,
+       1.6888364510140832,
+       5.220847444971639,
+       10.063990717371524
+      ],
+      [
+       -7.7111060487824545,
+       1.7259820147754965,
+       5.24228868846123,
+       10.072454195459898
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d7_q0.03_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.0928249709373827,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -8.816001846511938,
+       2.678676624099637,
+       6.9805109327239165,
+       12.9063136454823
+      ],
+      [
+       -8.811768931269427,
+       2.6842685735625196,
+       6.980031467239286,
+       12.884721525629573
+      ],
+      [
+       -8.812606587926325,
+       2.672578955133986,
+       6.974271022598174,
+       10.731222985387063
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d7_q0.03_s3": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1708693669991617,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -8.579626480301016,
+       1.9941857196094759,
+       5.953555752873626,
+       11.406965774337635
+      ],
+      [
+       -8.608814368128577,
+       1.9609355606637564,
+       5.919677249709963,
+       11.363930189569999
+      ],
+      [
+       -8.590662980596022,
+       1.991786458134868,
+       5.954699232538758,
+       11.40495459600308
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s0": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.0826001756201113,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -9.452730117996367,
+       1.7312499311369436,
+       5.900071454167545,
+       11.600699072321419
+      ],
+      [
+       -9.48234493529776,
+       1.6974948588611767,
+       5.8647070844572795,
+       11.57314192434174
+      ],
+      [
+       -9.423226466059475,
+       1.7698500910999542,
+       5.928569883783894,
+       11.643382626652937
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.3307201064358782,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -7.270117416580291,
+       1.2197737844389565,
+       1.9037760592701147,
+       1.9524726013741827
+      ],
+      [
+       -7.290340102076328,
+       1.1812100510202015,
+       4.33013816050709,
+       8.606217988133636
+      ],
+      [
+       -7.248591051935904,
+       1.2517279368641425,
+       4.390493359685195,
+       8.631959079543975
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2083964558157687,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -7.748091771642123,
+       1.951879778345642,
+       5.561295839747032,
+       10.475211580713847
+      ],
+      [
+       -7.80130042032377,
+       1.9142822848560286,
+       5.523499496261479,
+       10.430160087387009
+      ],
+      [
+       -7.740136367996286,
+       1.970148467819115,
+       5.571802482406554,
+       10.481609964808086
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n40_d8_q0.08_s3": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2045682610658306,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -7.992766135096332,
+       1.2348841512602746,
+       1.2880025454761892,
+       1.3489777028960361
+      ],
+      [
+       -8.083448304692695,
+       1.672089739283166,
+       5.289547872980677,
+       10.23287287120047
+      ],
+      [
+       -8.014273932337574,
+       1.7491213071745904,
+       5.379924809575272,
+       10.325794026494208
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s0": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2413052426829547,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -16.48134981527315,
+       0.6173163770994563,
+       7.038818309879417,
+       15.879434468682689
+      ],
+      [
+       -16.486427120113262,
+       0.5980594661395742,
+       7.010424416955402,
+       15.84089640054711
+      ],
+      [
+       -16.51263481257746,
+       0.5735737153054004,
+       6.987551143741712,
+       15.811328235721675
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1429032293097006,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -16.191544658565448,
+       2.8537317404112343,
+       10.0098032341958,
+       19.883148652490064
+      ],
+      [
+       -16.186056669775553,
+       2.8546714669228663,
+       10.0154865418435,
+       19.88449651600527
+      ],
+      [
+       -16.229823956711982,
+       2.8195539348285763,
+       9.975451512750112,
+       19.848808483219273
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.108141191705389,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -15.783848472499756,
+       4.023627507623132,
+       11.467580235894616,
+       21.733988838291253
+      ],
+      [
+       -15.758896970017673,
+       4.043408648268468,
+       11.485533523655022,
+       21.753368527825728
+      ],
+      [
+       -15.770769294643316,
+       4.023541620985753,
+       11.469485295709092,
+       21.721092412408268
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d7_q0.03_s3": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1125935138082566,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -16.78599360520036,
+       2.820432725366061,
+       10.189246952152388,
+       20.35046411650984
+      ],
+      [
+       -16.794737645371697,
+       2.800502633508131,
+       10.178071791426476,
+       20.334407862440827
+      ],
+      [
+       -16.801314940039248,
+       2.7923792789142396,
+       10.156092329756547,
+       20.314819854831768
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s0": {
+     "witness_success": false,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.2775228809592973,
+     "cert": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "E": [
+      [
+       -77.17061168915424,
+       -68.46508709198622,
+       -65.30376646159479,
+       -61.075502860927514
+      ],
+      [
+       -77.12974868001928,
+       -68.39619511404027,
+       -65.23366499319062,
+       -61.00374404389052
+      ],
+      [
+       -77.07016717265438,
+       -68.33622866557431,
+       -65.17444487244282,
+       -60.96048278290428
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s1": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.176168995124472,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -13.546584134324263,
+       4.314386383152112,
+       10.981495613193658,
+       20.091813011264946
+      ],
+      [
+       -13.533563290818421,
+       4.2967109884581305,
+       10.94936771148059,
+       20.065981122430287
+      ],
+      [
+       -13.522793678188265,
+       4.300882560825414,
+       10.94825322732936,
+       20.05239585631699
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s2": {
+     "witness_success": true,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.1005933485642214,
+     "cert": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "E": [
+      [
+       -15.331086161200119,
+       4.006248765405132,
+       11.248394513543587,
+       21.168240608310782
+      ],
+      [
+       -15.3166030882835,
+       4.007416065311531,
+       11.22829535811752,
+       21.136027404880565
+      ],
+      [
+       -15.313256694698282,
+       4.009654238478447,
+       11.231519978936603,
+       21.144498564497667
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ],
+      [
+       false,
+       true,
+       true,
+       true
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    },
+    "n60_d8_q0.08_s3": {
+     "witness_success": false,
+     "seeds": [
+      101,
+      102,
+      103
+     ],
+     "beta_c_ref": 1.164285783478566,
+     "cert": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "E": [
+      [
+       -87.89437569417939,
+       -79.03824264262508,
+       -75.83298616526912,
+       -71.54293214152639
+      ],
+      [
+       -87.91238485962535,
+       -79.02358308909723,
+       -75.8398109765688,
+       -71.56044668569555
+      ],
+      [
+       -87.8343607863425,
+       -78.9276766814231,
+       -75.72579364767063,
+       -71.44079231506973
+      ]
+     ],
+     "cert_ball": [
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ],
+      [
+       false,
+       false,
+       false,
+       false
+      ]
+     ],
+     "S_star_source": [
+      "cached_witness",
+      "cached_witness",
+      "cached_witness"
+     ]
+    }
+   },
+   "compute": {
+    "total_proposals": 830078976,
+    "witness_search_proposals": 452984832,
+    "total_seconds": 440.573166847229
+   }
+  }
+ },
+ "X2_extra_seeds": {
+  "note": "STRETCH X2: 2^21 with seeds 101-104 on the released-pass pairs; not the pre-registered primary count",
+  "protein": {
+   "T21": {
+    "logT_per_point": 21,
+    "seeds": [
+     101,
+     102,
+     103,
+     104
+    ],
+    "n_pairs": 6,
+    "n_pairs_all_seeds": 6,
+    "log2_total_proposals_per_run": 29.566054038171092,
+    "RIGOROUS": {
+     "certified_all_seeds_at3": 2,
+     "denominator": 6,
+     "certified_any_seed_at3": 5,
+     "runs_certified_at3": 15,
+     "runs": 24,
+     "certified_all_seeds_at3_ball": 3,
+     "median_E3_runs": 11.314050269708218,
+     "max_E3_runs": 99.4815340707687,
+     "min_E3_runs": -5.96547499677672,
+     "median_minseed_E3": -1.8580779421148463,
+     "max_minseed_E3": 72.86056591331817,
+     "runs_certified_at25": 14,
+     "runs_certified_at20": 14,
+     "not_returned_16": {
+      "certified_all_seeds": 0,
+      "denominator": 0
+     },
+     "returned_6": {
+      "certified_all_seeds": 2,
+      "denominator": 6
+     },
+     "not_certified_pairs": [
+      "pscdb_B_44",
+      "pscdb_CL_64",
+      "pscdb_N_141",
+      "pscdb_O_17"
+     ]
+    },
+    "median_nucleation_offset_TI_BASED_betac": 0.07525227487275388,
+    "TI_BASED": {
+     "note": "two-phase estimated error Lambda_2P(3)-Lambda_FP(3); context only",
+     "median_est_err3": 16.22241139304907
+    },
+    "compute": {
+     "total_proposals": 19075694592,
+     "total_seconds": 16889.599004745483
+    },
+    "pairs": {
+     "pscdb_B_44": {
+      "n": 185,
+      "seeds": [
+       101,
+       102,
+       103,
+       104
+      ],
+      "beta_c_2P_TI_BASED": 1.4410853069714404,
+      "released_status": "pass (retry)",
+      "E3": [
+       -1.2552794966920828,
+       14.80530882817311,
+       14.81422427795087,
+       38.35604469916984
+      ],
+      "E3_ball": [
+       1.615944921483333,
+       17.676533246348527,
+       17.685448696126286,
+       41.22726911734526
+      ],
+      "E25": [
+       -4.332202302795849,
+       11.730683968680978,
+       11.721066870508366,
+       35.281508172171925
+      ],
+      "E20": [
+       -10.608783475739074,
+       5.442675482250934,
+       5.4458311142700495,
+       28.98566887996367
+      ],
+      "first_cert": [
+       null,
+       1.78,
+       1.78,
+       1.54
+      ],
+      "first_cert_ball": [
+       2.7,
+       1.7,
+       1.68,
+       1.54
+      ],
+      "nucleation": [
+       1.48,
+       1.52,
+       1.52,
+       1.58
+      ],
+      "S_star_source": [
+       "cached_witness",
+       "cached_witness",
+       "cached_witness",
+       "cached_witness"
+      ],
+      "S_star": [
+       553,
+       553,
+       553,
+       553
+      ],
+      "est_err3_TI_BASED": [
+       9.490375571087725,
+       25.55096389595292,
+       25.55987934573068,
+       49.10169976694965
+      ],
+      "proposals": [
+       794820608,
+       794820608,
+       794820608,
+       794820608
+      ],
+      "seconds": [
+       797.473090171814,
+       801.616012096405,
+       819.5302755832672,
+       821.2680611610413
+      ],
+      "certified_all_seeds_3": false,
+      "certified_any_seed_3": true,
+      "certified_all_seeds_3_ball": true,
+      "nuc_offset": [
+       0.038914693028559544,
+       0.07891469302855958,
+       0.07891469302855958,
+       0.13891469302855963
+      ]
+     },
+     "pscdb_CL_64": {
+      "n": 71,
+      "seeds": [
+       101,
+       102,
+       103,
+       104
+      ],
+      "beta_c_2P_TI_BASED": 1.4773226644302262,
+      "released_status": "pass",
+      "E3": [
+       -5.655469275261339,
+       -4.499409218575238,
+       -4.814385987068704,
+       -4.409134077176873
+      ],
+      "E3_ball": [
+       -3.4449079843922163,
+       -2.288847927706115,
+       -2.603824696199581,
+       -2.19857278630775
+      ],
+      "E25": [
+       -6.530076836690853,
+       -5.386193543221168,
+       -5.681640977010716,
+       -5.29161418670958
+      ],
+      "E20": [
+       -8.566454907204275,
+       -7.421337161804786,
+       -7.746673848574915,
+       -7.338610363747193
+      ],
+      "first_cert": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "first_cert_ball": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "nucleation": [
+       1.48,
+       1.48,
+       1.5,
+       1.5
+      ],
+      "S_star_source": [
+       "cached_witness",
+       "cached_witness",
+       "cached_witness",
+       "cached_witness"
+      ],
+      "S_star": [
+       171,
+       171,
+       171,
+       171
+      ],
+      "est_err3_TI_BASED": [
+       -0.7219425232603953,
+       0.4341175334257059,
+       0.11914076493224002,
+       0.524392674824071
+      ],
+      "proposals": [
+       794820608,
+       794820608,
+       794820608,
+       794820608
+      ],
+      "seconds": [
+       678.4146585464478,
+       676.919171333313,
+       373.9917652606964,
+       374.14435386657715
+      ],
+      "certified_all_seeds_3": false,
+      "certified_any_seed_3": false,
+      "certified_all_seeds_3_ball": false,
+      "nuc_offset": [
+       0.0026773355697737866,
+       0.0026773355697737866,
+       0.022677335569773804,
+       0.022677335569773804
+      ]
+     },
+     "pscdb_N_139": {
+      "n": 224,
+      "seeds": [
+       101,
+       102,
+       103,
+       104
+      ],
+      "beta_c_2P_TI_BASED": 1.6177062448651904,
+      "released_status": "pass",
+      "E3": [
+       99.4815340707687,
+       72.86056591331817,
+       79.43484800636634,
+       95.63436847984667
+      ],
+      "E3_ball": [
+       101.20880324117093,
+       74.58783508372039,
+       81.16211717676856,
+       97.3616376502489
+      ],
+      "E25": [
+       97.82620637237892,
+       71.16741101880734,
+       77.75798128743827,
+       94.0085780523209
+      ],
+      "E20": [
+       92.90783561686544,
+       66.23841852803889,
+       72.70003044426312,
+       89.03868652482697
+      ],
+      "first_cert": [
+       1.68,
+       1.68,
+       1.68,
+       1.68
+      ],
+      "first_cert_ball": [
+       1.68,
+       1.68,
+       1.68,
+       1.68
+      ],
+      "nucleation": [
+       1.84,
+       1.78,
+       1.8,
+       1.82
+      ],
+      "S_star_source": [
+       "cached_witness",
+       "cached_witness",
+       "cached_witness",
+       "cached_witness"
+      ],
+      "S_star": [
+       635,
+       635,
+       635,
+       635
+      ],
+      "est_err3_TI_BASED": [
+       103.02198125710345,
+       76.40101309965291,
+       82.97529519270108,
+       99.17481566618142
+      ],
+      "proposals": [
+       794820608,
+       794820608,
+       794820608,
+       794820608
+      ],
+      "seconds": [
+       943.2528212070465,
+       940.8538761138916,
+       992.0071029663086,
+       982.9610459804535
+      ],
+      "certified_all_seeds_3": true,
+      "certified_any_seed_3": true,
+      "certified_all_seeds_3_ball": true,
+      "nuc_offset": [
+       0.22229375513480965,
+       0.1622937551348096,
+       0.1822937551348096,
+       0.20229375513480963
+      ]
+     },
+     "pscdb_N_141": {
+      "n": 142,
+      "seeds": [
+       101,
+       102,
+       103,
+       104
+      ],
+      "beta_c_2P_TI_BASED": 1.521030192024284,
+      "released_status": "pass",
+      "E3": [
+       -2.46087638753761,
+       17.021652127324387,
+       11.242078988769435,
+       15.040523399729409
+      ],
+      "E3_ball": [
+       -0.4259109203119351,
+       19.05661759455006,
+       13.27704445599511,
+       17.075488866955084
+      ],
+      "E25": [
+       -3.26980426210298,
+       16.21860870939372,
+       10.418140824058355,
+       14.190631824551701
+      ],
+      "E20": [
+       -6.051043852747739,
+       13.430607598045185,
+       7.608408164400544,
+       11.359850235997328
+      ],
+      "first_cert": [
+       null,
+       1.6,
+       1.64,
+       1.6
+      ],
+      "first_cert_ball": [
+       null,
+       1.58,
+       1.6,
+       1.58
+      ],
+      "nucleation": [
+       1.54,
+       1.6,
+       1.58,
+       1.6
+      ],
+      "S_star_source": [
+       "cached_witness",
+       "cached_witness",
+       "cached_witness",
+       "cached_witness"
+      ],
+      "S_star": [
+       394,
+       394,
+       394,
+       394
+      ],
+      "est_err3_TI_BASED": [
+       2.316092306272594,
+       21.79862082113459,
+       16.01904768257964,
+       19.817492093539613
+      ],
+      "proposals": [
+       794820608,
+       794820608,
+       794820608,
+       794820608
+      ],
+      "seconds": [
+       630.4397978782654,
+       630.7303788661957,
+       657.8024628162384,
+       658.230188369751
+      ],
+      "certified_all_seeds_3": false,
+      "certified_any_seed_3": true,
+      "certified_all_seeds_3_ball": false,
+      "nuc_offset": [
+       0.018969807975716124,
+       0.07896980797571618,
+       0.05896980797571616,
+       0.07896980797571618
+      ]
+     },
+     "pscdb_O_17": {
+      "n": 124,
+      "seeds": [
+       101,
+       102,
+       103,
+       104
+      ],
+      "beta_c_2P_TI_BASED": 1.6484101432830518,
+      "released_status": "pass",
+      "E3": [
+       -4.983914807847441,
+       -5.96547499677672,
+       1.1428081192459558,
+       -0.35240206421531184
+      ],
+      "E3_ball": [
+       -2.1350519882431627,
+       -3.116612177172442,
+       3.991670938850234,
+       2.4964607553889664
+      ],
+      "E25": [
+       -7.6843899808441165,
+       -8.704194382241667,
+       -1.5807899143410395,
+       -2.9881101228907028
+      ],
+      "E20": [
+       -14.402929603468692,
+       -15.350653972835744,
+       -8.269632803809031,
+       -9.652809682102315
+      ],
+      "first_cert": [
+       null,
+       null,
+       2.74,
+       null
+      ],
+      "first_cert_ball": [
+       null,
+       null,
+       2.36,
+       2.52
+      ],
+      "nucleation": [
+       1.7,
+       1.68,
+       1.72,
+       1.72
+      ],
+      "S_star_source": [
+       "cached_witness",
+       "cached_witness",
+       "cached_witness",
+       "cached_witness"
+      ],
+      "S_star": [
+       302,
+       302,
+       302,
+       302
+      ],
+      "est_err3_TI_BASED": [
+       6.23448610470308,
+       5.252925915773801,
+       12.361209031796477,
+       10.86599884833521
+      ],
+      "proposals": [
+       794820608,
+       794820608,
+       794820608,
+       794820608
+      ],
+      "seconds": [
+       602.947990655899,
+       604.7974052429199,
+       571.1907033920288,
+       571.296168088913
+      ],
+      "certified_all_seeds_3": false,
+      "certified_any_seed_3": true,
+      "certified_all_seeds_3_ball": false,
+      "nuc_offset": [
+       0.05158985671694816,
+       0.03158985671694814,
+       0.07158985671694817,
+       0.07158985671694817
+      ]
+     },
+     "pscdb_O_19": {
+      "n": 103,
+      "seeds": [
+       101,
+       102,
+       103,
+       104
+      ],
+      "beta_c_2P_TI_BASED": 1.4634842816765703,
+      "released_status": "pass",
+      "E3": [
+       6.57086383198839,
+       12.208235788495813,
+       11.386021550647001,
+       16.243678976845217
+      ],
+      "E3_ball": [
+       8.614706649851541,
+       14.252078606358964,
+       13.429864368510152,
+       18.28752179470837
+      ],
+      "E25": [
+       6.052494584869919,
+       11.693183921328796,
+       10.855534869980488,
+       15.72061205084276
+      ],
+      "E20": [
+       4.873855699054047,
+       10.509816017301546,
+       9.687512216718574,
+       14.549141842674771
+      ],
+      "first_cert": [
+       1.54,
+       1.52,
+       1.52,
+       1.52
+      ],
+      "first_cert_ball": [
+       1.52,
+       1.52,
+       1.52,
+       1.52
+      ],
+      "nucleation": [
+       1.52,
+       1.56,
+       1.56,
+       1.58
+      ],
+      "S_star_source": [
+       "cached_witness",
+       "cached_witness",
+       "cached_witness",
+       "cached_witness"
+      ],
+      "S_star": [
+       282,
+       282,
+       282,
+       282
+      ],
+      "est_err3_TI_BASED": [
+       11.610617384859893,
+       17.247989341367315,
+       16.425775103518504,
+       21.28343252971672
+      ],
+      "proposals": [
+       794820608,
+       794820608,
+       794820608,
+       794820608
+      ],
+      "seconds": [
+       894.6892552375793,
+       893.8836212158203,
+       490.8798053264618,
+       480.2789933681488
+      ],
+      "certified_all_seeds_3": true,
+      "certified_any_seed_3": true,
+      "certified_all_seeds_3_ball": true,
+      "nuc_offset": [
+       0.05651571832342972,
+       0.09651571832342976,
+       0.09651571832342976,
+       0.11651571832342977
+      ]
+     }
+    }
+   }
+  }
+ },
+ "compute_total": {
+  "proposals": 55217618944,
+  "seconds": 51894.14005661011,
+  "runs": 218
+ }
+}

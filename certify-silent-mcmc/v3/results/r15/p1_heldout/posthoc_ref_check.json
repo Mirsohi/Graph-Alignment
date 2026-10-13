@@ -1,0 +1,18 @@
+{
+ "note": "POST-HOC diagnostic (not pre-registered, not used in any primary metric): does a 4x longer window reference (2^22 per window) resolve the seed disagreement on F4_i0 at beta=1.3? overlap_profile around pi*, seeds 11 and 12.",
+ "inst": "F4_i0",
+ "beta": 1.3,
+ "logT_per_window": 22,
+ "a_seeds": {
+  "11": 0.922,
+  "12": 0.351
+ },
+ "prereg_ref_a_seeds": [
+  0.931,
+  0.283
+ ],
+ "conclusion": "disagreement persists at 2^22 (0.92 vs 0.35): systematic within-window non-mixing at the transition on hidden-middle instances, not Monte Carlo noise; the reference-uncertain flag is warranted.",
+ "run_at": "2026-10-02 00:36 PDT",
+ "seconds": 74,
+ "proposals": 251658240
+}

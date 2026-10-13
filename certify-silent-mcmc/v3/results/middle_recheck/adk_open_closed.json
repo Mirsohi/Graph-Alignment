@@ -1,0 +1,93 @@
+{
+ "case": "adk_open_closed",
+ "n": 214,
+ "k0": 64,
+ "beta_c": 1.9607615286840319,
+ "witness_score": 505,
+ "status": "multi-phase",
+ "failed_rules": [
+  [
+   "D_two_start",
+   "C_two_start",
+   "window",
+   "middle_basin"
+  ],
+  [
+   "C_two_start",
+   "window",
+   "middle_basin"
+  ]
+ ],
+ "middle_basin_fired": [
+  true,
+  true
+ ],
+ "middle_window": [
+  21.400000000000002,
+  74.7
+ ],
+ "survey_basins": [
+  {
+   "k_peak": 46,
+   "mass": 0.9962170107226541,
+   "lo": 10,
+   "hi": 214
+  }
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": false,
+    "C_two_start": false,
+    "window": false,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.06734797214957852,
+   "dS_D": 104.47277832031251,
+   "se_D": 2.11239675971097,
+   "dS_C": 22.56378173828125,
+   "se_C": 14.393768788256113,
+   "basins": [
+    {
+     "k_peak": 46,
+     "mass": 0.9982996019408613,
+     "lo": 12,
+     "hi": 214
+    }
+   ],
+   "proposals": 255852544
+  },
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": false,
+    "window": false,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.09026475320575186,
+   "dS_D": 1.9623209635416714,
+   "se_D": 0.7779533582788836,
+   "dS_C": 58.24390665690106,
+   "se_C": 8.936284797054753,
+   "basins": [
+    {
+     "k_peak": 50,
+     "mass": 0.9995308748615899,
+     "lo": 14,
+     "hi": 214
+    }
+   ],
+   "proposals": 255852544
+  }
+ ],
+ "diag_proposals": 511705088,
+ "diag_sec": 94.44992256164551
+}

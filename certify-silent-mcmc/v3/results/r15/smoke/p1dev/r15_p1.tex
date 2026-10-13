@@ -1,0 +1,18 @@
+% R15 M2 draft (r15_p1_present.py from results/r15/p1_heldout/summary_p1.json). EMPIRICAL.
+% 1 complete held-out instances (2 pipeline runs); unit = run (pipeline), instance (comparators).
+\begin{tabular}{lcccccc}
+\toprule
+operating point & coverage & false-pass & false-pass & $e$ median & $e$ 90\% & $\log_2$ proposals \\
+ & & $\varepsilon{=}0.05$ & $\varepsilon{=}0.10$ & (returned) & (returned) & per useful output \\
+\midrule
+O0 no screen & 1.00 [1.00, 1.00] & 2/2 [1.00, 1.00] & 2/2 & 0.121 & 0.132 & -- \\
+O1 first attempt & 0.00 [0.00, 0.00] & 0/0 & 0/0 & -- & -- & -- \\
+O2 released (primary) & 0.00 [0.00, 0.00] & 0/0 & 0/0 & -- & -- & -- \\
+O2, $t{=}0.25$ & 0.00 [0.00, 0.00] & 0/0 & 0/0 & -- & -- & -- \\
+O2, $t{=}0.5$ & 0.00 [0.00, 0.00] & 0/0 & 0/0 & -- & -- & -- \\
+O2, $t{=}2$ & 0.50 [0.50, 0.50] & 1/1 [1.00, 1.00] & 1/1 & 0.108 & 0.108 & -- \\
+\midrule
+Wang--Landau (matched) & 1 & 1/1 & 1/1 & 0.885 & 0.885 & -- \\
+witness PT (matched) & 1 & 1/1 & 1/1 & 0.337 & 0.337 & -- \\
+\bottomrule
+\end{tabular}

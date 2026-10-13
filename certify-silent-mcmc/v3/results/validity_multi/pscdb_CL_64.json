@@ -1,0 +1,155 @@
+{
+ "case": "pscdb_CL_64",
+ "n": 71,
+ "k0": 21,
+ "beta_c": 1.4784690125040991,
+ "source": "pscdb_CL_64_gt.json",
+ "rows": [
+  {
+   "offset": -0.25,
+   "beta": 1.2285,
+   "w_est": 2.457223614464645e-07,
+   "w_window": 2.3951334816402123e-07,
+   "edge": 0.3759765625,
+   "dS_D": 0.1410115559895786,
+   "se_D": 0.09293794596548503,
+   "dS_C": 0.14373779296875,
+   "se_C": 0.39885362340908476,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.9999999999999998,
+     "lo": 0,
+     "hi": 71
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 11.604865074157715
+  },
+  {
+   "offset": -0.1,
+   "beta": 1.3785,
+   "w_est": 0.000522709467016038,
+   "w_window": 0.0006824440370591259,
+   "edge": 0.053466796875,
+   "dS_D": 0.24627685546875,
+   "se_D": 0.12345651325772565,
+   "dS_C": 2.5174153645833286,
+   "se_C": 1.7382921243993874,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.9999999999999998,
+     "lo": 0,
+     "hi": 71
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 12.326313495635986
+  },
+  {
+   "offset": 0.0,
+   "beta": 1.4785,
+   "w_est": 0.5005748134257958,
+   "w_window": 0.5396732458718877,
+   "edge": 0.0048828125,
+   "dS_D": 0.4585164388020857,
+   "se_D": 0.34519523720338813,
+   "dS_C": 0.8059895833333144,
+   "se_C": 0.7968064215564559,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.45749325977189903,
+     "lo": 0,
+     "hi": 15
+    },
+    {
+     "k_peak": 41,
+     "mass": 0.5425067402281011,
+     "lo": 16,
+     "hi": 71
+    }
+   ],
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "sec": 12.743697166442871
+  },
+  {
+   "offset": 0.1,
+   "beta": 1.5785,
+   "w_est": 0.9997383171676195,
+   "w_window": 0.9998252930656439,
+   "edge": 0.1552734375,
+   "dS_D": 0.8994954427083357,
+   "se_D": 3.376612856997801,
+   "dS_C": 0.5733744303385322,
+   "se_C": 0.45237359186649834,
+   "basins": [
+    {
+     "k_peak": 43,
+     "mass": 0.999853469934389,
+     "lo": 10,
+     "hi": 71
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 12.592791557312012
+  },
+  {
+   "offset": 0.25,
+   "beta": 1.7285,
+   "w_est": 0.9999999906463941,
+   "w_window": 0.9999999931448218,
+   "edge": 0.495361328125,
+   "dS_D": 7.628682454427079,
+   "se_D": 2.8882154316774256,
+   "dS_C": 1.09222412109375,
+   "se_C": 0.8016182088102755,
+   "basins": [
+    {
+     "k_peak": 47,
+     "mass": 0.9999999996813671,
+     "lo": 7,
+     "hi": 71
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": false,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 12.691992998123169
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+cd "$(dirname "$0")/../.."
+while pgrep -f "baselines.py --case pscdb_N_74" > /dev/null; do sleep 20; done
+python code/experiments/run_twophase.py --case pscdb_CL_64 --reps 4 --tag gt --marg_at 1.42,1.46,1.47,1.48,1.49,1.50,1.54
+python code/experiments/run_twophase.py --case pscdb_O_19 --reps 4 --tag gt --marg_at 1.40,1.44,1.45,1.46,1.47,1.48,1.52
+python code/experiments/baselines.py --case pscdb_CL_64 --betas 1.42,1.46,1.47,1.48,1.49,1.50,1.54 --logB 26
+python code/experiments/baselines.py --case pscdb_O_19 --betas 1.40,1.44,1.45,1.46,1.47,1.48,1.52 --logB 26
+python code/experiments/switch_counts.py --case pscdb_CL_64 --betas 1.42,1.46,1.47,1.48,1.49,1.5,1.54 --logT 27
+python code/experiments/switch_counts.py --case pscdb_O_19 --betas 1.4,1.44,1.45,1.46,1.47,1.48,1.52 --logT 27

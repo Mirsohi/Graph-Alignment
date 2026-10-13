@@ -1,0 +1,155 @@
+{
+ "case": "pscdb_O_17",
+ "n": 124,
+ "k0": 37,
+ "beta_c": 1.6484101432830518,
+ "source": "pscdb_O_17_all.json",
+ "rows": [
+  {
+   "offset": -0.25,
+   "beta": 1.3984,
+   "w_est": 1.1852954149171393e-12,
+   "w_window": 4.823646911496078e-13,
+   "edge": 0.39404296875,
+   "dS_D": 0.07012939453125,
+   "se_D": 0.1705868284642416,
+   "dS_C": 0.11962890625,
+   "se_C": 0.7353194007800402,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 1.0,
+     "lo": 0,
+     "hi": 124
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 18.9461829662323
+  },
+  {
+   "offset": -0.1,
+   "beta": 1.5484,
+   "w_est": 8.34723778328521e-07,
+   "w_window": 4.20154297346909e-07,
+   "edge": 0.079345703125,
+   "dS_D": 0.146484375,
+   "se_D": 0.2990559539131875,
+   "dS_C": 0.57586669921875,
+   "se_C": 5.220796846756766,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 1.0,
+     "lo": 0,
+     "hi": 124
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 19.796080827713013
+  },
+  {
+   "offset": 0.0,
+   "beta": 1.6484,
+   "w_est": 0.4995497868125741,
+   "w_window": 0.4287457804694742,
+   "edge": 0.0,
+   "dS_D": 0.73626708984375,
+   "se_D": 0.44692821500469476,
+   "dS_C": 3.836252848307282,
+   "se_C": 3.05396562468948,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.5709065173620084,
+     "lo": 0,
+     "hi": 31
+    },
+    {
+     "k_peak": 78,
+     "mass": 0.4290934826379916,
+     "lo": 32,
+     "hi": 124
+    }
+   ],
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "sec": 20.34725260734558
+  },
+  {
+   "offset": 0.1,
+   "beta": 1.7484,
+   "w_est": 0.9999999829893651,
+   "w_window": 0.9999998642315163,
+   "edge": 0.0,
+   "dS_D": 11.278706868489579,
+   "se_D": 6.950029936959532,
+   "dS_C": 1.8738403320312784,
+   "se_C": 1.3913412312298874,
+   "basins": [
+    {
+     "k_peak": 88,
+     "mass": 0.9999999066473882,
+     "lo": 12,
+     "hi": 124
+    }
+   ],
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "sec": 19.878489017486572
+  },
+  {
+   "offset": 0.25,
+   "beta": 1.8984,
+   "w_est": 0.9999999999999999,
+   "w_window": 1.0,
+   "edge": 0.5166015625,
+   "dS_D": 2.978108723958343,
+   "se_D": 1.6138450869448013,
+   "dS_C": 0.4593709309895644,
+   "se_C": 0.774412443219977,
+   "basins": [
+    {
+     "k_peak": 96,
+     "mass": 1.0000000000000016,
+     "lo": 0,
+     "hi": 124
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 20.590906381607056
+  }
+ ]
+}

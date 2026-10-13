@@ -1,0 +1,92 @@
+{
+ "case": "pscdb_IL_74",
+ "n": 213,
+ "k0": 64,
+ "beta_c": 1.7754624885229682,
+ "witness_score": 523,
+ "status": "multi-phase",
+ "failed_rules": [
+  [
+   "D_two_start",
+   "window",
+   "middle_basin"
+  ],
+  [
+   "C_two_start",
+   "window",
+   "middle_basin"
+  ]
+ ],
+ "middle_basin_fired": [
+  true,
+  true
+ ],
+ "middle_window": [
+  21.3,
+  74.65
+ ],
+ "survey_basins": [
+  {
+   "k_peak": 45,
+   "mass": 0.9972269577769185,
+   "lo": 9,
+   "hi": 213
+  }
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": false,
+    "C_two_start": true,
+    "window": false,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.008544921875,
+   "w_window": 0.02270390028520938,
+   "dS_D": 101.96820068359375,
+   "se_D": 4.516946950575197,
+   "dS_C": 0.5753987630208428,
+   "se_C": 4.361835735869683,
+   "basins": [
+    {
+     "k_peak": 46,
+     "mass": 0.9957264404339368,
+     "lo": 11,
+     "hi": 213
+    }
+   ],
+   "proposals": 253755392
+  },
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": false,
+    "window": false,
+    "middle_basin": false
+   },
+   "passed": false,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.023125468939310136,
+   "dS_D": 1.48175048828125,
+   "se_D": 1.2040701705170378,
+   "dS_C": 66.29292805989581,
+   "se_C": 8.677001816108403,
+   "basins": [
+    {
+     "k_peak": 45,
+     "mass": 0.9920574665114513,
+     "lo": 10,
+     "hi": 213
+    }
+   ],
+   "proposals": 253755392
+  }
+ ],
+ "diag_proposals": 507510784,
+ "diag_sec": 90.38004755973816
+}

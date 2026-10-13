@@ -1,0 +1,155 @@
+{
+ "case": "pscdb_N_74",
+ "n": 50,
+ "k0": 15,
+ "beta_c": 1.5185687034325057,
+ "source": "pscdb_N_74_gt.json",
+ "rows": [
+  {
+   "offset": -0.25,
+   "beta": 1.2686,
+   "w_est": 0.00010283628783746166,
+   "w_window": 9.646636311827585e-05,
+   "edge": 0.3671875,
+   "dS_D": 0.05190022786458215,
+   "se_D": 0.10522345548761108,
+   "dS_C": 0.2964375813802107,
+   "se_C": 0.30114259582156805,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.9999999999999999,
+     "lo": 0,
+     "hi": 50
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 7.464796304702759
+  },
+  {
+   "offset": -0.1,
+   "beta": 1.4186,
+   "w_est": 0.011559968351849501,
+   "w_window": 0.010942856960974962,
+   "edge": 0.10986328125,
+   "dS_D": 0.156494140625,
+   "se_D": 0.14768709943360844,
+   "dS_C": 0.3782755533854072,
+   "se_C": 0.83826065022266,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 1.0000000000000002,
+     "lo": 0,
+     "hi": 50
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 7.035558462142944
+  },
+  {
+   "offset": 0.0,
+   "beta": 1.5186,
+   "w_est": 0.50062069411386,
+   "w_window": 0.5831864167941622,
+   "edge": 0.023681640625,
+   "dS_D": 0.3083292643229214,
+   "se_D": 0.5610075313220114,
+   "dS_C": 0.558197021484375,
+   "se_C": 0.636048768389786,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.40279172191475593,
+     "lo": 0,
+     "hi": 11
+    },
+    {
+     "k_peak": 30,
+     "mass": 0.5972082780852438,
+     "lo": 12,
+     "hi": 50
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 7.019345045089722
+  },
+  {
+   "offset": 0.1,
+   "beta": 1.6186,
+   "w_est": 0.9939208655892583,
+   "w_window": 0.9936710270901492,
+   "edge": 0.090576171875,
+   "dS_D": 0.1418050130208357,
+   "se_D": 1.5264336291194562,
+   "dS_C": 0.292022705078125,
+   "se_C": 0.5304677065153436,
+   "basins": [
+    {
+     "k_peak": 33,
+     "mass": 1.0000000000000007,
+     "lo": 0,
+     "hi": 50
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 7.403501510620117
+  },
+  {
+   "offset": 0.25,
+   "beta": 1.7686,
+   "w_est": 0.9999910980528641,
+   "w_window": 0.9999926567905172,
+   "edge": 0.460205078125,
+   "dS_D": 2.3731892903645786,
+   "se_D": 1.3048091891570328,
+   "dS_C": 0.033843994140625,
+   "se_C": 0.47242563615025823,
+   "basins": [
+    {
+     "k_peak": 46,
+     "mass": 1.000000000000001,
+     "lo": 0,
+     "hi": 50
+    }
+   ],
+   "rules": {
+    "edge": false,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": false,
+   "sec": 7.421456813812256
+  }
+ ]
+}

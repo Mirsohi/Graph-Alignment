@@ -1,0 +1,13 @@
+% R15 S1 draft (r15_mass_floor_analyze.py). All floors RIGOROUS; beta_c is the TI-based two-phase estimate.
+\begin{tabular}{lccccc}
+\toprule
+TI budget & runs & \multicolumn{4}{c}{pairs certified at $\beta{=}3$, all seeds (runs certified at $\hat\beta_c{+}0.1$)} \\
+ & & point & ball & coset ELBO & best \\
+\midrule
+$2^{21}$ & 44 & 12/22 (22/44) & 13/22 (22/44) & 16/22 (24/44) & 16/22 (24/44) \\
+$2^{19}$ & 22 & 17/22 (12/22) & 19/22 (12/22) & 20/22 (15/22) & 20/22 (15/22) \\
+$2^{17}$ & 44 & 19/22 (25/44) & 19/22 (25/44) & 20/22 (31/44) & 20/22 (31/44) \\
+\midrule
+\multicolumn{6}{l}{median gain over the point floor at $\hat\beta_c{+}0.1$: coset 7.3 nats, ball 2.9 nats (22 pairs)} \\
+\bottomrule
+\end{tabular}

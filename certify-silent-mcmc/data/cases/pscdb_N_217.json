@@ -1,0 +1,60 @@
+{
+  "case_id": "pscdb_N_217",
+  "protein": "PHOSPHATASE",
+  "group": "panel",
+  "source": "1ebb_A",
+  "target": "1h2f_A",
+  "n": 202,
+  "alignment": {
+    "identity": 1.0,
+    "coverage_a": 1.0,
+    "coverage_b": 0.9758454106280193,
+    "observed_length_a": 202,
+    "observed_length_b": 207,
+    "aligned_count": 202,
+    "identical_count": 202
+  },
+  "sequence": "ATTLYLTRHGETKWNVERRMQGWQDSPLTEKGRQDAMRLGKRLEAVELAAIYTSTSGRALETAEIVRGGRLIPIYQDERLREIHLGDWEGKTHDEIRQMDPIAFDHFWQAPHLYAPQRGERFCDVQQRALEAVQSIVDRHEGETVLIVTHGVVLKTLMAAFKDTPLDHLWSPPYMYGTSVTIIEVDGGTFHVAVEGDVSHIE",
+  "sequence_sha256": "ad5796bbb2a715573ec9ff84be9611da875db0d591a548140145befa42a7172c",
+  "rmsd_angstrom": 0.4196245383992756,
+  "resolution_a": 2.3,
+  "resolution_b": 2.0,
+  "source_sha256": "18c701824cafb9394535f2c00252cfc1ba6d047cae523d2055c6396fdfb9eccd",
+  "target_sha256": "f885d13f4cae8c46c6206da25db8fa7cb554f31e68c500261266fc114242f1bb",
+  "relabel_seed": 1260928686,
+  "same_entry": false,
+  "kabsch": "global least-squares proper rotation; identical aligned residues only",
+  "c8": {
+    "edges_a": 589,
+    "edges_b": 588,
+    "changed_edges": 39,
+    "known_score": 569,
+    "isolated_a": 2,
+    "isolated_b": 3
+  },
+  "c6": {
+    "edges_a": 240,
+    "edges_b": 233,
+    "changed_edges": 33,
+    "known_score": 220,
+    "isolated_a": 14,
+    "isolated_b": 16
+  },
+  "c10": {
+    "edges_a": 1380,
+    "edges_b": 1403,
+    "changed_edges": 97,
+    "known_score": 1343,
+    "isolated_a": 0,
+    "isolated_b": 0
+  },
+  "c8local": {
+    "edges_a": 990,
+    "edges_b": 989,
+    "changed_edges": 39,
+    "known_score": 970,
+    "isolated_a": 0,
+    "isolated_b": 0
+  },
+  "array_sha256": "2e136d6d5292a9e2f9754bde6d140c25a3f972f6c7b669bc1d13c5e65bfcfb65"
+}

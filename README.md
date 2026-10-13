@@ -1,5 +1,14 @@
 # Graph-Alignment
 
+This repository holds code and data for two papers by Melika Gorgi and Kourosh Mirsohi.
+
+| Paper | Where |
+|---|---|
+| Certifying and Correcting Silent MCMC Failures: From Variable Selection to Protein Alignment (2026) | [`certify-silent-mcmc/`](certify-silent-mcmc/), with its own README |
+| Auditing Bayesian Graph Alignment: Diagnostic Comparisons and Reference Failure ([arXiv:2609.23232](https://arxiv.org/abs/2609.23232)) | the repository root, described below |
+
+## Auditing Bayesian Graph Alignment
+
 Code and saved results for **Auditing Bayesian Graph Alignment: Diagnostic Comparisons and Reference Failure**, Melika Gorgi and Kourosh Mirsohi.
 
 Intended repository: https://github.com/Mirsohi/Graph-Alignment

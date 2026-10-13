@@ -1,0 +1,31 @@
+{
+ "adk_open_closed": {
+  "k": 45,
+  "aligned_rmsd": 0.7944330750306157,
+  "patch_median": 1.3553351139570418,
+  "patch_min": 0.5439934165911585,
+  "patch_frac_le": 0.14485981308411214,
+  "rg_aligned": 10.06515400226052,
+  "rg_patch_median": 9.753052931586115,
+  "frac_aligned_in_CORE": 0.9777777777777777,
+  "core_self_rmsd": 1.9750535576527228
+ },
+ "pscdb_O_16": {
+  "k": 30,
+  "aligned_rmsd": 0.22381150656484278,
+  "patch_median": 0.5941912355641051,
+  "patch_min": 0.21685374165120613,
+  "patch_frac_le": 0.01948051948051948,
+  "rg_aligned": 7.060190361373154,
+  "rg_patch_median": 8.139913934257809
+ },
+ "pscdb_IL_74": {
+  "k": 42,
+  "aligned_rmsd": 0.45440377125021736,
+  "patch_median": 0.6512379463826189,
+  "patch_min": 0.30440409073352365,
+  "patch_frac_le": 0.14553990610328638,
+  "rg_aligned": 8.916969680860893,
+  "rg_patch_median": 9.354969922662564
+ }
+}

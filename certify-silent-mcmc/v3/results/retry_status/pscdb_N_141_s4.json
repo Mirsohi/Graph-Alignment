@@ -1,0 +1,86 @@
+{
+ "case": "pscdb_N_141",
+ "seed": 4,
+ "beta_c": 1.5200334439553236,
+ "first_status": "unresolved",
+ "first_failed_rules": [
+  [],
+  [
+   "window"
+  ]
+ ],
+ "retry_status": "pass",
+ "final_status": "pass (retry)",
+ "retry_failed_rules": [
+  [],
+  []
+ ],
+ "runs": [
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.5576128742253137,
+   "dS_D": 0.1348876953125,
+   "se_D": 0.6189087183429436,
+   "dS_C": 0.7029622395833144,
+   "se_C": 1.7459434113574535,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.4427047173198982,
+     "lo": 0,
+     "hi": 63
+    },
+    {
+     "k_peak": 106,
+     "mass": 0.5572952826801018,
+     "lo": 64,
+     "hi": 142
+    }
+   ],
+   "proposals": 180355072
+  },
+  {
+   "rules": {
+    "edge": true,
+    "D_two_start": true,
+    "C_two_start": true,
+    "window": true,
+    "middle_basin": true
+   },
+   "passed": true,
+   "edge_D": 0.0,
+   "edge_C": 0.0,
+   "w_window": 0.5538993445468635,
+   "dS_D": 0.5547281901041714,
+   "se_D": 0.4268030287425132,
+   "dS_C": 0.8864339192708712,
+   "se_C": 2.527462044631315,
+   "basins": [
+    {
+     "k_peak": 1,
+     "mass": 0.4462963877284435,
+     "lo": 0,
+     "hi": 57
+    },
+    {
+     "k_peak": 107,
+     "mass": 0.5537036122715565,
+     "lo": 58,
+     "hi": 142
+    }
+   ],
+   "proposals": 180355072
+  }
+ ],
+ "retry_proposals": 360710144,
+ "retry_sec": 60.18066954612732
+}
